@@ -1,0 +1,2429 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wholesale Product Catalog | Master Sales Corporation Pune</title>
+    
+    <!-- Meta & SEO: Wholesale Bathware & Plumbing Catalog -->
+    <meta name="description" content="Browse the complete B2B wholesale product catalog of Master Sales Corporation (MSC). Over 1,900+ authentic verified products including CP brass faucets, showers, valves, PVC/GI fittings, kitchen sinks, and sanitaryware in Uruli Devachi, Pune.">
+    <meta name="keywords" content="Master Sales Corporation catalog, bathware wholesale catalog Pune, CP fittings catalog, Jaquar wholesale, Watertec wholesale, Prince pipes, sanitaryware catalog">
+    <meta name="author" content="Master Sales Corporation">
+    
+    <link rel="icon" type="image/png" href="logo.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Plus Jakarta Sans, Playfair Display, Tinos (Times New Roman equivalent), & Alex Brush -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons CDN -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        brandSerif: ['"Times New Roman"', 'Times', '"Tinos"', '"Liberation Serif"', 'serif'],
+                        times: ['"Times New Roman"', 'Times', '"Tinos"', '"Liberation Serif"', 'serif'],
+                        cinzel: ['"Times New Roman"', 'Times', '"Tinos"', '"Liberation Serif"', 'serif'],
+                        script: ['"Alex Brush"', 'cursive'],
+                        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#b45309',          // Refined Amber Gold Accent (Hatim Aesthetic)
+                            blueDark: '#92400e',      // Deep Amber Hover
+                            blueLight: '#fef3c7',     // Subtle Warm Gold Tint
+                            blueGlow: 'rgba(217, 119, 6, 0.25)', // Ambient Gold Radial Glow
+                            dark: '#0a0a0a',          // Midnight Dark Surface (neutral-950)
+                            zinc: '#171717',          // Deep Neutral Secondary Surface (neutral-900)
+                            zincCard: '#1f1f1f',      // Elevated Dark Card Surface
+                            light: '#fafafa',         // Off-White Primary Canvas (neutral-50)
+                            border: '#e5e5e5',        // Crisp Luxury Border Lines (neutral-200)
+                            gray: '#525252',          // Balanced Readable Body Text (neutral-600)
+                            muted: '#737373',         // Secondary Muted Meta Text (neutral-500)
+                        },
+                        amber: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            300: '#fcd34d',
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                            900: '#78350f',
+                        },
+                        neutral: {
+                            950: '#0a0a0a',
+                            900: '#171717',
+                            800: '#262626',
+                            700: '#404040',
+                            600: '#525252',
+                            500: '#737373',
+                            400: '#a3a3a3',
+                            300: '#d4d4d4',
+                            200: '#e5e5e5',
+                            100: '#f5f5f5',
+                            50: '#fafafa',
+                        }
+                    },
+                    boxShadow: {
+                        'subtle': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                        'luxury': '0 4px 25px -4px rgba(0, 0, 0, 0.06)',
+                        'card-hover': '0 20px 40px -8px rgba(0, 0, 0, 0.12)',
+                        'glow': '0 0 25px rgba(217, 119, 6, 0.35)',
+                        'drawer': '-10px 0 35px rgba(0, 0, 0, 0.25)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Base Smooth Scrolling & Typography */
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 5.5rem;
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
+        body {
+            font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+            background-color: #fafafa;
+            color: #0a0a0a;
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
+
+        /* Glassmorphism Styles matching Hatim Enterprises */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(229, 229, 229, 0.85);
+        }
+        .glass-dark-panel {
+            background: rgba(23, 23, 23, 0.88);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Architectural Dot-Grid Background Overlay */
+        .bg-tech-grid {
+            background-size: 32px 32px;
+            background-image: radial-gradient(circle, rgba(255, 255, 255, 0.08) 1.2px, transparent 1.2px);
+        }
+
+        /* Hide scrollbars for pill navigation */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        
+        /* Marathi Typography Enhancement */
+        html[lang="mr"] body, body.lang-mr {
+            font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif !important;
+        }
+        body.lang-mr {
+            font-size: 1.05rem;
+            line-height: 1.65;
+        }
+        body.lang-mr h1, body.lang-mr h2, body.lang-mr h3, body.lang-mr h4, body.lang-mr h5, body.lang-mr h6 {
+            letter-spacing: 0 !important;
+            word-spacing: normal !important;
+            font-family: 'Noto Sans Devanagari', 'Playfair Display', Georgia, serif;
+        }
+        body.lang-mr .text-[9px], body.lang-mr .text-[8.5px], body.lang-mr .text-[10px] {
+            font-size: 0.75rem !important;
+            line-height: 1.25 !important;
+        }
+        body.lang-mr .text-xs {
+            font-size: 0.85rem !important;
+        }
+        /* Razor-sharp product image rendering */
+        .product-img {
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+            transform: translateZ(0);
+            backface-visibility: hidden;
+        }
+
+        /* Product image hover effect and luxury card lift */
+        .product-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card:hover .product-img {
+            transform: scale(1.08);
+        }
+        .product-img {
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* Official Brand Typography (Catalog Consistency: Times New Roman Serif + Alex Brush) */
+        .font-brand-serif, .font-times, .font-cinzel {
+            font-family: 'Times New Roman', Times, 'Tinos', 'Liberation Serif', serif !important;
+        }
+        .font-script {
+            font-family: 'Alex Brush', cursive;
+        }
+        .bg-navy-brand {
+            background-color: #0c1e36;
+        }
+        .bg-navy-dark {
+            background-color: #081526;
+        }
+
+        /* Pulse animation for cart badge */
+        @keyframes cartBadgePulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+        }
+        .animate-cart-pulse {
+            animation: cartBadgePulse 0.4s ease-in-out;
+        }
+
+        /* Safe-area insets for mobile floating dynamic dock and bottom sheets */
+        .safe-area-dock {
+            margin-bottom: calc(0.5rem + env(safe-area-inset-bottom, 0px));
+            background: rgba(15, 23, 42, 0.94) !important;
+            backdrop-filter: blur(20px) !important;
+            -webkit-backdrop-filter: blur(20px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.16) !important;
+            box-shadow: 0 10px 32px rgba(0, 0, 0, 0.35) !important;
+        }
+        .safe-area-bottom {
+            padding-bottom: calc(0.5rem + env(safe-area-inset-bottom, 0px));
+        }
+
+        /* Prevent automatic viewport zoom on iOS Safari when tapping inputs */
+        @media (max-width: 767px) {
+            input[type="text"], input[type="tel"], input[type="number"], select, textarea {
+                font-size: 16px !important;
+            }
+        }
+
+        /* Safe area drawer bottom padding */
+        .safe-area-drawer-bottom {
+            padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+        }
+
+        /* ===================================================================== */
+        /* PRESENTATION-STYLE LOGO PRELOADER (Luminous Alabaster Theme)          */
+        /* Ensures zero visual jitter, layout shift, or font pop-in on initial load */
+        /* ===================================================================== */
+        #msc-preloader {
+            position: fixed;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #faf9f6 !important;
+            background-image: 
+                radial-gradient(circle at 50% 45%, rgba(217, 119, 6, 0.08) 0%, rgba(250, 249, 246, 0) 65%),
+                radial-gradient(circle, rgba(9, 10, 15, 0.06) 1.2px, transparent 1.2px);
+            background-size: 100% 100%, 28px 28px;
+            z-index: 999999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.65s ease;
+            will-change: opacity, transform;
+        }
+
+        #msc-preloader.msc-loaded {
+            opacity: 0;
+            visibility: hidden;
+            transform: scale(1.02);
+            pointer-events: none;
+        }
+
+        .msc-preloader-emblem {
+            position: relative;
+            width: 88px;
+            height: 88px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            border-radius: 28px;
+            border: 1px solid rgba(229, 229, 229, 0.95);
+            box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(255, 255, 255, 0.9) inset;
+            animation: mscEmblemBreathe 3s ease-in-out infinite;
+        }
+
+        .msc-preloader-ring {
+            position: absolute;
+            inset: -6px;
+            border-radius: 34px;
+            border: 1.5px solid rgba(180, 83, 9, 0.25);
+            animation: mscRingPulse 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+            pointer-events: none;
+        }
+
+        @keyframes mscEmblemBreathe {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+
+        @keyframes mscRingPulse {
+            0%, 100% { transform: scale(1); opacity: 0.35; }
+            50% { transform: scale(1.07); opacity: 0.85; }
+        }
+
+        .msc-preloader-progress-track {
+            width: 220px;
+            max-width: 80vw;
+            height: 3px;
+            background: rgba(229, 229, 229, 0.85);
+            border-radius: 9999px;
+            overflow: hidden;
+            margin: 22px auto 0;
+            position: relative;
+        }
+
+        .msc-preloader-progress-bar {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #b45309 0%, #f59e0b 50%, #b45309 100%);
+            border-radius: 9999px;
+            transition: width 0.3s ease-out;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .msc-preloader-emblem, .msc-preloader-ring {
+                animation: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col pb-32 md:pb-0 selection:bg-amber-200 selection:text-neutral-900">
+
+    <!-- ================================================================= -->
+    <!-- PRESENTATION LOGO LOADING SCREEN (Luminous Architectural Luxury)   -->
+    <!-- Shields page until Google Fonts, 1,900+ items, & DOM are initialized -->
+    <!-- ================================================================= -->
+    <div id="msc-preloader" aria-hidden="false" role="status" aria-label="Loading Master Sales Corporation B2B catalog">
+        <div class="msc-preloader-content" style="text-align: center; padding: 24px; max-width: 380px;">
+            <!-- Brand Emblem with Breathing Halo Ring -->
+            <div class="msc-preloader-emblem">
+                <div class="msc-preloader-ring"></div>
+                <img src="logo.png" alt="Master Sales Corporation" style="width: 50px; height: 50px; object-fit: contain;">
+            </div>
+
+            <!-- Architectural Brand Identity Lockup (Official Catalog Spec) -->
+            <div style="margin-top: 18px; display: flex; justify-content: center;">
+                <img src="msc_logo_dark.png" alt="Master Sales Corporation - Complete Bathroom Solutions" style="height: 58px; width: auto; object-fit: contain;">
+            </div>
+
+            <!-- Hairline Brushed Gold Progress Bar -->
+            <div class="msc-preloader-progress-track">
+                <div id="msc-loader-bar" class="msc-preloader-progress-bar"></div>
+            </div>
+
+            <!-- Live Synchronized Status Message -->
+            <div style="margin-top: 12px; min-height: 18px;">
+                <span id="msc-loader-status" style="font-family: ui-monospace, Menlo, Monaco, monospace; font-size: 10.5px; font-weight: 600; color: #737373; letter-spacing: 0.05em;">
+                    Initializing Catalog...
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inline Preloader Controller: Runs immediately on document parsing -->
+    <script>
+        (function() {
+            var preloader = document.getElementById('msc-preloader');
+            var progressBar = document.getElementById('msc-loader-bar');
+            var statusText = document.getElementById('msc-loader-status');
+            if (!preloader || !progressBar) return;
+
+            var progress = 14;
+            var isComplete = false;
+            var startTime = Date.now();
+            var MIN_DISPLAY_TIME = 950; // Smooth presentation window (no flicker)
+
+            progressBar.style.width = progress + '%';
+
+            var interval = setInterval(function() {
+                if (isComplete) return;
+                if (progress < 45) {
+                    progress += Math.floor(Math.random() * 8) + 6;
+                    if (statusText) statusText.textContent = "Loading 1,900+ Wholesale Fixtures...";
+                } else if (progress < 85) {
+                    progress += Math.floor(Math.random() * 5) + 3;
+                    if (statusText) statusText.textContent = "Verifying Catalog Inventory...";
+                }
+                progressBar.style.width = Math.min(progress, 88) + '%';
+            }, 120);
+
+            function finishPreloader() {
+                if (isComplete) return;
+                isComplete = true;
+                clearInterval(interval);
+
+                var elapsed = Date.now() - startTime;
+                var remaining = Math.max(0, MIN_DISPLAY_TIME - elapsed);
+
+                setTimeout(function() {
+                    progressBar.style.width = '100%';
+                    if (statusText) statusText.textContent = "Catalog Ready";
+
+                    setTimeout(function() {
+                        preloader.classList.add('msc-loaded');
+                        setTimeout(function() {
+                            preloader.style.display = 'none';
+                        }, 700);
+                    }, 240);
+                }, remaining);
+            }
+
+            if (document.readyState === 'complete') {
+                finishPreloader();
+            } else {
+                window.addEventListener('load', function() {
+                    if (document.fonts && document.fonts.ready) {
+                        document.fonts.ready.then(finishPreloader).catch(finishPreloader);
+                    } else {
+                        finishPreloader();
+                    }
+                });
+            }
+
+            // Safety fallback timeout (guarantee dismissal even on slow connections)
+            setTimeout(finishPreloader, 2600);
+        })();
+    </script>
+
+    <!-- ================================================================= -->
+    <!-- TIER 1: CORPORATE BRAND IDENTITY & LOGISTICS HEADER (NAVY BLUE)   -->
+    <!-- Official Navy Blue shade (#0c1e36) from Master Sales Corp Catalog -->
+    <!-- Consistently pairs Cinzel Serif + Alex Brush Script Tagline       -->
+    <!-- Sticky on mobile; top header on desktop                           -->
+    <!-- ================================================================= -->
+    <header class="bg-[#0c1e36] text-white border-b border-[#162f52] sticky top-0 lg:relative z-50 shadow-md lg:shadow-none">
+        <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2 sm:py-3 flex justify-between items-center gap-2 sm:gap-4">
+            
+            <!-- Official Corporate Brand Identity Lockup (Catalog PDF Cover Spec) -->
+            <a href="index.html" class="flex items-center group focus:outline-none shrink-0" aria-label="Master Sales Corporation Home">
+                <img src="msc_logo_white.png" alt="Master Sales Corporation - Complete Bathroom Solutions" class="h-12 sm:h-14 lg:h-16 w-auto object-contain transition-transform group-hover:scale-[1.02] drop-shadow-sm">
+            </a>
+
+            <!-- Desktop Corporate Warehouse & Contact Desk -->
+            <div class="hidden lg:flex items-center gap-2.5 xl:gap-5 text-xs shrink-0">
+                <!-- Uruli Devachi Warehouse Operational Pulse (Visible on XL+) -->
+                <div class="hidden xl:flex items-center gap-2 text-neutral-300 font-medium">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    <span class="text-neutral-200" data-i18n="warehouse_location">Uruli Devachi Central Warehouse, Pune</span>
+                </div>
+
+                <span class="hidden xl:inline text-white/20">|</span>
+
+                <!-- Direct Contact Desk -->
+                <div class="flex items-center gap-2">
+                    <a href="tel:+918600021528" class="text-white/90 hover:text-amber-300 transition-colors flex items-center gap-1.5 font-mono">
+                        <i class="ph-bold ph-phone text-amber-400"></i>
+                        <span class="hidden xl:inline">+91 86000 21528</span>
+                        <span class="xl:hidden">Call Desk</span>
+                    </a>
+                </div>
+
+                <span class="text-white/20">|</span>
+
+                <!-- Language Toggle Button (EN | मराठी) -->
+                <div class="inline-flex items-center bg-white/10 border border-white/20 rounded-full p-0.5 text-xs">
+                    <button onclick="setLanguage('en')" id="lang-btn-en" class="px-2.5 py-0.5 rounded-full font-bold transition-all text-amber-300 bg-white/20" title="English">EN</button>
+                    <button onclick="setLanguage('mr')" id="lang-btn-mr" class="px-2.5 py-0.5 rounded-full font-bold transition-all text-white/80 hover:text-white" title="मराठी">मराठी</button>
+                </div>
+
+                <!-- Persistent B2B Cart Drawer Trigger -->
+                <button id="cart-drawer-toggle" onclick="toggleCartDrawer(true)" class="relative inline-flex items-center gap-2 px-3.5 py-1.5 bg-white/10 hover:bg-white/20 text-white border border-white/20 text-xs font-bold uppercase tracking-wider transition-colors rounded-full shadow-2xs group" title="View Cart">
+                    <i class="ph-bold ph-shopping-cart-simple text-sm text-amber-300 group-hover:scale-110 transition-transform"></i>
+                    <span data-i18n="rfq_cart">Cart</span>
+                    <span id="cart-badge" class="bg-amber-400 text-neutral-950 text-[0.65rem] px-2 py-0.5 rounded-full font-mono font-black">0</span>
+                </button>
+            </div>
+
+            <!-- Mobile Quick Contact & Menu Controls (Zero Horizontal Overflow) -->
+            <div class="flex lg:hidden items-center gap-1 shrink-0">
+                <!-- Mobile Language Toggle -->
+                <button onclick="toggleLanguage()" id="mobile-lang-btn" class="px-2 py-1 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full text-[10.5px] font-bold text-amber-300 flex items-center gap-1 transition-colors" aria-label="Toggle Marathi / English Language">
+                    <i class="ph-bold ph-globe text-xs"></i>
+                    <span id="mobile-lang-text">मराठी</span>
+                </button>
+                <a href="tel:+918600021528" class="hidden sm:inline-flex p-1.5 text-white/90 hover:text-amber-300 transition-colors" aria-label="Call Master Sales Corporation">
+                    <i class="ph-bold ph-phone text-lg"></i>
+                </a>
+                <button onclick="toggleCartDrawer(true)" class="relative p-1.5 text-white/90 hover:text-amber-300 transition-colors focus:outline-none" aria-label="Open Cart" title="Open Cart">
+                    <i class="ph-bold ph-shopping-cart-simple text-lg"></i>
+                    <span id="mobile-top-cart-badge" class="absolute top-0 right-0 bg-amber-400 text-neutral-950 text-[9px] w-4 h-4 rounded-full flex items-center justify-center font-mono font-bold shadow-2xs">0</span>
+                </button>
+                <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="p-1.5 text-white hover:text-amber-300 transition-colors focus:outline-none" aria-label="Toggle Navigation Menu">
+                    <i class="ph-bold ph-list text-xl" id="menu-icon"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Mobile Navigation Drawer (Embedded inside Header for clean mobile flow) -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white text-neutral-900 border-b border-neutral-200/80 px-4 pt-3 pb-6 space-y-1.5 transition-all duration-300 shadow-2xl max-h-[calc(100vh-4rem)] overflow-y-auto">
+            
+            <!-- Language Selector inside Drawer -->
+            <div class="p-2 bg-neutral-100 rounded-xl flex items-center justify-between mb-2">
+                <span class="text-xs font-bold text-neutral-700 flex items-center gap-2">
+                    <i class="ph-bold ph-globe text-base text-amber-600"></i>
+                    <span data-i18n="drawer_lang_label">भाषा / Language</span>
+                </span>
+                <div class="flex items-center bg-white p-0.5 rounded-lg border border-neutral-200">
+                    <button onclick="setLanguage('en')" id="drawer-lang-en" class="px-2.5 py-1 text-xs font-bold rounded-md bg-neutral-950 text-white transition-all">English</button>
+                    <button onclick="setLanguage('mr')" id="drawer-lang-mr" class="px-2.5 py-1 text-xs font-bold rounded-md text-neutral-600 hover:text-neutral-950 transition-all">मराठी</button>
+                </div>
+            </div>
+
+            <a href="index.html" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl text-sm font-semibold text-neutral-900 hover:text-amber-700 hover:bg-neutral-50 transition-colors" onclick="toggleMobileMenu()">
+                <span class="flex items-center gap-3"><i class="ph-bold ph-house text-base text-amber-600"></i> <span data-i18n="nav_home">Home Overview</span></span>
+                <i class="ph-bold ph-caret-right text-xs text-neutral-400"></i>
+            </a>
+            <a href="catalog.html" class="flex items-center justify-between py-2.5 px-3 rounded-xl text-sm font-bold text-white bg-neutral-950 shadow transition-colors">
+                <span class="flex items-center gap-3"><i class="ph-bold ph-squares-four text-base text-amber-400"></i> <span data-i18n="nav_catalog_full">Full Wholesale Catalog (1,900+ SKUs)</span></span>
+                <span class="bg-white/20 text-white text-[10px] px-2 py-0.5 rounded font-mono font-bold" data-i18n="badge_active">ACTIVE</span>
+            </a>
+            <a href="index.html#brands" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl text-sm font-semibold text-neutral-900 hover:text-amber-700 hover:bg-neutral-50 transition-colors" onclick="toggleMobileMenu()">
+                <span class="flex items-center gap-3"><i class="ph-bold ph-seal-check text-base text-amber-600"></i> <span data-i18n="nav_brands">Authorized Brands</span></span>
+                <i class="ph-bold ph-caret-right text-xs text-neutral-400"></i>
+            </a>
+
+            <a href="index.html#about" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl text-sm font-semibold text-neutral-900 hover:text-amber-700 hover:bg-neutral-50 transition-colors" onclick="toggleMobileMenu()">
+                <span class="flex items-center gap-3"><i class="ph-bold ph-users-three text-base text-amber-600"></i> <span data-i18n="nav_about">Leadership &amp; Origin</span></span>
+                <i class="ph-bold ph-caret-right text-xs text-neutral-400"></i>
+            </a>
+            <a href="index.html#contact" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl text-sm font-semibold text-neutral-900 hover:text-amber-700 hover:bg-neutral-50 transition-colors" onclick="toggleMobileMenu()">
+                <span class="flex items-center gap-3"><i class="ph-bold ph-phone-call text-base text-amber-600"></i> <span data-i18n="nav_contact">Warehouse Contact Desk</span></span>
+                <i class="ph-bold ph-caret-right text-xs text-neutral-400"></i>
+            </a>
+            
+            <div class="pt-3 border-t border-neutral-100 flex flex-col gap-2 mt-2">
+                <a href="Master Sales Corporation.pdf" download="Master Sales Corporation Wholesale Catalog.pdf" class="w-full text-center py-2.5 bg-neutral-900 hover:bg-neutral-800 text-white text-xs font-bold uppercase tracking-wider rounded-full shadow transition-colors flex items-center justify-center gap-2">
+                    <i class="ph-bold ph-download-simple text-base text-amber-400"></i> <span data-i18n="download_pdf">Download PDF Catalog</span>
+                </a>
+                <button onclick="toggleCartDrawer(true); toggleMobileMenu();" class="w-full text-center py-2.5 border border-neutral-300 text-neutral-900 text-xs font-bold uppercase tracking-wider rounded-full transition-colors flex items-center justify-center gap-2">
+                    <i class="ph-bold ph-shopping-bag text-sm text-amber-600"></i> <span data-i18n="view_rfq">View Cart</span>
+                </button>
+                <a href="https://wa.me/918600021528?text=Hello%20Master%20Sales%20Corporation,%20I%20am%20inquiring%20about%20wholesale%20catalog%20and%20orders." target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold uppercase tracking-wider rounded-full shadow transition-colors flex items-center justify-center gap-2">
+                    <i class="ph-bold ph-whatsapp-logo text-sm"></i> <span data-i18n="order_whatsapp">WhatsApp Order Desk</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================================================================= -->
+    <!-- TIER 2: PRIMARY NAVIGATION BAR (STICKY, UNCLUTTERED & SPACIOUS)    -->
+    <!-- Displays on desktop (>=1024px) for clear, breathable navigation   -->
+    <!-- ================================================================= -->
+    <nav id="navbar" class="hidden lg:block sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-neutral-200/80 transition-all duration-300 shadow-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div id="nav-inner" class="flex justify-between items-center h-14 lg:h-16 transition-all duration-300">
+                
+                <!-- Desktop Navigation Links (Spacious, Zero Crowding) -->
+                <div class="flex items-center gap-2.5 xl:gap-5 text-[11px] xl:text-xs font-semibold uppercase tracking-wider text-neutral-600">
+                    <a href="index.html" class="nav-link relative py-2 text-neutral-600 hover:text-amber-700 transition-colors whitespace-nowrap">
+                        <span data-i18n="nav_home">Home</span>
+                    </a>
+                    <a href="catalog.html" class="relative py-2 text-neutral-900 font-bold transition-colors whitespace-nowrap flex items-center gap-1.5 border-b-2 border-amber-600" title="Complete Wholesale Catalog">
+                        <span class="text-amber-800" data-i18n="nav_catalog">Catalog</span>
+                        <span class="bg-amber-400 text-neutral-950 text-[9px] font-mono px-2 py-0.5 rounded-full font-black shadow-2xs" data-i18n="skus_badge">1,900+ SKUs</span>
+                    </a>
+                    <a href="index.html#brands" class="nav-link relative py-2 text-neutral-600 hover:text-amber-700 transition-colors whitespace-nowrap">
+                        <span data-i18n="nav_brands">Brands</span>
+                    </a>
+                    <a href="index.html#about" class="nav-link relative py-2 text-neutral-600 hover:text-amber-700 transition-colors whitespace-nowrap">
+                        <span data-i18n="nav_about">Leadership</span>
+                    </a>
+                    <a href="index.html#contact" class="nav-link relative py-2 text-neutral-600 hover:text-amber-700 transition-colors whitespace-nowrap">
+                        <span data-i18n="nav_contact_short">Contact</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Action CTAs -->
+                <div class="flex items-center gap-2 xl:gap-3 shrink-0">
+                    <!-- Download PDF Catalog Button -->
+                    <a href="Master Sales Corporation.pdf" download="Master Sales Corporation Wholesale Catalog.pdf" class="inline-flex items-center gap-1 text-neutral-800 hover:text-amber-800 text-[10.5px] xl:text-xs font-bold uppercase tracking-wider px-2.5 xl:px-4 py-2 border border-neutral-300 hover:border-neutral-900 rounded-full bg-white hover:bg-neutral-50 transition-all shadow-2xs">
+                        <i class="ph-bold ph-download-simple text-sm text-amber-600"></i>
+                        <span data-i18n="download_pdf">Download PDF</span>
+                    </a>
+
+                    <!-- WhatsApp Order Desk CTA -->
+                    <a href="https://wa.me/918600021528?text=Hello%20Master%20Sales%20Corporation,%20I%20am%20inquiring%20about%20wholesale%20catalog%20and%20orders." target="_blank" rel="noopener noreferrer" class="bg-neutral-950 hover:bg-neutral-800 text-white px-3 xl:px-4 py-2 text-[10.5px] xl:text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap rounded-full shadow-sm hover:shadow-md flex items-center gap-1">
+                        <i class="ph-bold ph-whatsapp-logo text-emerald-400 text-sm"></i>
+                        <span data-i18n="order_whatsapp">WhatsApp Order</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow">
+
+        <!-- ============================================================= -->
+        <!-- CATALOG HERO & SEARCH CONTROL CENTER                          -->
+        <!-- Luminous Alabaster European Wholesale Direction                -->
+        <!-- ============================================================= -->
+        <section class="relative bg-[#faf9f6] text-neutral-950 py-5 sm:py-12 overflow-hidden border-b border-neutral-200/80">
+            <!-- Architectural Background Grid -->
+            <div class="absolute inset-0 bg-tech-grid-light opacity-60 pointer-events-none"></div>
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-amber-100/40 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6 pb-4 sm:pb-6 border-b border-neutral-200/80">
+                    <div>
+                        <!-- Location/Official Status Pill -->
+                        <div class="inline-flex items-center gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-neutral-900/[0.04] border border-neutral-200 text-[10px] sm:text-[11px] font-semibold uppercase tracking-widest text-neutral-700 mb-2 sm:mb-3 shadow-2xs">
+                            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                            <span data-i18n="catalog_status_pill">Official Wholesale Catalog &bull; 1,900+ SKUs</span>
+                        </div>
+                        <h1 id="catalog-hero-title" class="text-2xl sm:text-4xl lg:text-5xl font-normal tracking-tight text-neutral-950 leading-tight font-serif" data-i18n="catalog_hero_title">
+                            Complete Wholesale <span class="italic text-amber-700">Bathroom &amp; Plumbing Solutions</span>
+                        </h1>
+                        <p id="catalog-hero-desc" class="mt-1.5 sm:mt-2.5 text-xs sm:text-base text-neutral-600 max-w-2xl font-light leading-relaxed" data-i18n="catalog_hero_desc">
+                            Supplying hardware stores, plumbing contractors &amp; sanitaryware retailers across 23 districts in Maharashtra, Goa &amp; Karnataka with direct OEM dispatch.
+                        </p>
+                    </div>
+
+                    <!-- Direct Trade Actions -->
+                    <div class="grid grid-cols-2 gap-2 sm:flex sm:items-center sm:gap-3 w-full sm:w-auto">
+                        <a href="https://wa.me/918600021528?text=Hello%20Master%20Sales%20Corporation,%20I%20am%20inquiring%20about%20wholesale%20catalog%20and%20orders." target="_blank" rel="noopener noreferrer" class="px-3 sm:px-5 py-2 sm:py-2.5 bg-neutral-950 hover:bg-neutral-800 text-white rounded-full text-[11px] sm:text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1.5 sm:gap-2 shadow-sm text-center">
+                            <i class="ph-bold ph-whatsapp-logo text-sm sm:text-base text-emerald-400"></i>
+                            <span data-i18n="trade_desk">Trade Desk</span>
+                        </a>
+                        <button onclick="openSmartAppStore()" class="px-3 sm:px-5 py-2 sm:py-2.5 bg-white hover:bg-neutral-50 text-neutral-950 border border-neutral-200/90 rounded-full text-[11px] sm:text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-1.5 sm:gap-2 shadow-2xs text-center">
+                            <i class="ph-bold ph-device-mobile text-sm sm:text-base text-amber-600"></i>
+                            <span data-i18n="order_in_app">Order in App</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Instant Search & Quick Category Filtering Bar -->
+                <div class="mt-4 sm:mt-6 grid grid-cols-1 md:grid-cols-12 gap-2.5 sm:gap-3.5">
+                    
+                    <!-- Real-Time Search Box -->
+                    <div class="md:col-span-7 relative">
+                        <i class="ph-bold ph-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-neutral-400 text-base sm:text-lg pointer-events-none"></i>
+                        <input type="text" id="catalog-search-input" placeholder="Search by SKU, product name, brand, or series..." class="w-full bg-white border border-neutral-200/90 rounded-2xl py-2.5 sm:py-3.5 pl-10 sm:pl-11 pr-10 text-neutral-900 placeholder-neutral-400 text-xs sm:text-sm focus:outline-none focus:border-neutral-950 focus:ring-2 focus:ring-neutral-950/5 transition-all shadow-2xs" oninput="handleSearchInput(this.value)">
+                        <button id="search-clear-btn" onclick="clearSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-950 p-1">
+                            <i class="ph-bold ph-x text-sm"></i>
+                        </button>
+                    </div>
+
+                    <!-- Sub-Series Dropdown Filter -->
+                    <div class="md:col-span-5 flex items-center gap-3">
+                        <div class="relative w-full">
+                            <select id="series-select" aria-label="Filter products by series or collection" onchange="handleSeriesSelect(this.value)" class="w-full bg-white border border-neutral-200/90 rounded-2xl py-2.5 sm:py-3.5 px-3.5 sm:px-4 text-neutral-900 text-xs sm:text-sm focus:outline-none focus:border-neutral-950 cursor-pointer appearance-none shadow-2xs">
+                                <option value="all" data-i18n="all_series">All Series &amp; Collections</option>
+                                <option value="Fusion Series">Superstone Fusion Series (Brass 5-Yr)</option>
+                                <option value="Smart Series">Superstone Smart Series (Brass 5-Yr)</option>
+                                <option value="Opal Series">Superstone Opal Series (Brass 5-Yr)</option>
+                                <option value="Mini Orio & Ultra">Superstone Mini Orio &amp; Ultra</option>
+                                <option value="Turbo & Mini Turbo">Superstone Turbo &amp; Mini Turbo</option>
+                                <option value="Zicot PTMT Series">Zicot PTMT Series (5-Yr)</option>
+                                <option value="PTMT Rio Series">Euro Flow PTMT Rio Series (3-Yr)</option>
+                                <option value="CP Allied & Fittings">CP Allied Items &amp; Extension Nipples</option>
+                                <option value="Mixer Parts & Hardware">Mixer Parts, Legs &amp; Adapters</option>
+                                <option value="Floor Jalis & Health Faucets">Floor Jalis &amp; Health Faucets</option>
+                                <option value="Showers & Tubes">Shower Tubes &amp; Overhead Rain Showers</option>
+                                <option value="Shower Arms & Hoses">Shower Arms &amp; Telephonic Showers</option>
+                                <option value="Valves & Inlets">Forged Brass Ball Valves &amp; NRV</option>
+                                <option value="Sanitary Fixing Hardware">Rack Bolts, Fasteners &amp; Knobs</option>
+                                <option value="Spindles & Cartridges">OEM Spindles (Jaquar, Hindware, Parryware)</option>
+                                <option value="Flush Valves & Cocks">Urinal Push Cocks &amp; Taper Cocks</option>
+                                <option value="Institutional Cocks">Flush Cocks &amp; Laboratory Taps</option>
+                                <option value="PVC & PTMT Cocks">PVC / PTMT Cocks &amp; Float Valves</option>
+                                <option value="Washers & Flush Tanks">Plumbing Washers &amp; Cistern Tanks</option>
+                                <option value="Flush Tanks & Cistern Fittings">Cistern Syphons &amp; Seat Hinges</option>
+                                <option value="Kitchen Sinks & Waste Couplings">SS Kitchen Sinks &amp; Waste Couplings</option>
+                                <option value="Waste Pipes & WC Bends">Waste Pipes &amp; WC Connectors</option>
+                                <option value="Bathroom Accessories">SS Towel Racks, Rods &amp; Shelves</option>
+                                <option value="Rings, Dishes & Grab Bars">Towel Rings, Soap Dishes &amp; Grab Bars</option>
+                                <option value="Acrylic Accessories & Manhole Covers">Acrylic Fixtures &amp; FRP Manhole Covers</option>
+                                <option value="Clips, Clamps & Brackets">Pipe Clips, Hose Clamps &amp; Brackets</option>
+                                <option value="GI Pipe Fittings">GI ISI &amp; Non-ISI Malleable Fittings</option>
+                                <option value="UPVC & CPVC Solvent Weld">UPVC &amp; CPVC Solvent Weld Fittings</option>
+                            </select>
+                            <i class="ph-bold ph-caret-down absolute right-4 top-1/2 -translate-y-1/2 text-neutral-400 pointer-events-none"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category Pills Filter Bar (Horizontal Scrolling) - Sourced from Excel Categories -->
+                <div class="mt-4 sm:mt-6 flex items-center gap-1.5 sm:gap-2.5 overflow-x-auto no-scrollbar pb-2 pt-0.5 px-0.5 text-[11px] sm:text-xs font-semibold scroll-smooth">
+                    <button onclick="setCategoryFilter('all')" data-cat="all" class="cat-pill active px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-neutral-950 text-white font-bold transition-all shadow-sm">
+                        <span data-i18n="cat_all">All Products</span> (<span id="count-all">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('JAQUAR')" data-cat="JAQUAR" class="cat-pill px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Jaquar</span> (<span id="count-jaquar">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('WATERTEC')" data-cat="WATERTEC" class="cat-pill px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Watertec</span> (<span id="count-watertec">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('CP ALLIED ITEMS & CONNECTION PIPES')" data-cat="CP ALLIED ITEMS & CONNECTION PIPES" class="cat-pill px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>CP Allied &amp; Pipes</span> (<span id="count-cp-allied">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('SUPERSTONE FAUCETS')" data-cat="SUPERSTONE FAUCETS" class="cat-pill px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Superstone Faucets</span> (<span id="count-superstone">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('GI FITTINGS')" data-cat="GI FITTINGS" class="cat-pill px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>GI Pipe Fittings</span> (<span id="count-gi-fittings">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('HEALTH FAUCETS & SHOWERS')" data-cat="HEALTH FAUCETS & SHOWERS" class="cat-pill px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Showers &amp; Health Faucets</span> (<span id="count-showers">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('BALL VALVES & COCKS')" data-cat="BALL VALVES & COCKS" class="cat-pill px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Valves &amp; Cocks</span> (<span id="count-valves">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('FLUSH TANKS & SANITARYWARE ALLIED ITEMS')" data-cat="FLUSH TANKS & SANITARYWARE ALLIED ITEMS" class="cat-pill px-3.5 sm:px-5 py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Sanitaryware &amp; Cisterns</span> (<span id="count-sanitary">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('CLIPS & CLAMPS')" data-cat="CLIPS & CLAMPS" class="cat-pill px-3.5 sm:px-5 py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Clips &amp; Clamps</span> (<span id="count-clamps">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('BOLTS & FITTINGS')" data-cat="BOLTS & FITTINGS" class="cat-pill px-3.5 sm:px-5 py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Bolts &amp; Fasteners</span> (<span id="count-bolts">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('PVC COCKS & ALLIED ITEMS')" data-cat="PVC COCKS & ALLIED ITEMS" class="cat-pill px-3.5 sm:px-5 py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>PVC Allied &amp; Cocks</span> (<span id="count-pvc">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('ESSCO')" data-cat="ESSCO" class="cat-pill px-3.5 sm:px-5 py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Essco by Jaquar</span> (<span id="count-essco">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('PTMT FAUCETS')" data-cat="PTMT FAUCETS" class="cat-pill px-3.5 sm:px-5 py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>PTMT Faucets</span> (<span id="count-ptmt">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('MANHOLE COVERS')" data-cat="MANHOLE COVERS" class="cat-pill px-3.5 sm:px-5 py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Manhole Covers</span> (<span id="count-manhole">0</span>)
+                    </button>
+                    <button onclick="setCategoryFilter('NIRALI')" data-cat="NIRALI" class="cat-pill px-3.5 sm:px-5 py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs">
+                        <span>Nirali Sinks</span> (<span id="count-nirali">0</span>)
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- PRODUCT CATALOG GRID & RESULTS VIEWPORT                       -->
+        <!-- ============================================================= -->
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-14">
+            
+            <!-- Result Bar & Quick Sorting -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-neutral-200/80 mb-8">
+                <div>
+                    <span class="text-amber-700 font-bold tracking-[0.25em] text-[10px] sm:text-[11px] uppercase block mb-1" data-i18n="organized_lines">
+                        Organized B2B Product Lines
+                    </span>
+                    <h2 id="catalog-heading" class="text-2xl sm:text-3xl font-light text-neutral-900 tracking-tight" data-i18n="catalog_collections">
+                        Wholesale <span class="font-serif italic font-bold text-amber-700">Catalog Collections</span>
+                    </h2>
+                    <p id="catalog-count-text" class="text-xs sm:text-sm text-neutral-500 mt-1" data-i18n="showing_items">
+                        Showing all available wholesale items
+                    </p>
+                </div>
+
+                <!-- B2B Order Help Callout -->
+                <div class="flex items-center gap-3 text-xs text-neutral-600 font-medium">
+                    <span class="inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-800 px-4 py-2 rounded-full border border-emerald-200/80 shadow-2xs font-semibold">
+                        <i class="ph-bold ph-shield-check text-emerald-600"></i>
+                        <span data-i18n="gst_invoicing">GST B2B Invoicing &amp; Fast Dispatch</span>
+                    </span>
+                    <button onclick="toggleCartDrawer(true)" class="hidden sm:inline-flex items-center gap-1.5 bg-neutral-950 text-white px-4 py-2 rounded-full hover:bg-neutral-800 transition-colors cursor-pointer font-bold shadow-sm">
+                        <i class="ph-bold ph-list-checks text-amber-400"></i>
+                        <span data-i18n="open_rfq_manifest">Open Cart</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Empty State Display -->
+            <div id="no-results-state" class="hidden py-16 text-center">
+                <div class="w-16 h-16 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-4 text-neutral-400">
+                    <i class="ph-bold ph-magnifying-glass text-2xl"></i>
+                </div>
+                <h3 class="text-lg font-bold text-neutral-900 font-serif" data-i18n="catalog_empty_title">No matching products found</h3>
+                <p class="text-sm text-neutral-500 max-w-md mx-auto mt-1" data-i18n="catalog_empty_desc">
+                    Try adjusting your search terms, check the SKU number, or browse by category above.
+                </p>
+                <button onclick="resetAllFilters()" class="mt-4 px-6 py-2.5 bg-neutral-950 text-white rounded-full text-xs font-bold uppercase tracking-wider hover:bg-neutral-800 transition-colors shadow-sm" data-i18n="catalog_empty_reset">
+                    Reset All Filters
+                </button>
+            </div>
+
+            <!-- Dynamic Product Grid Container -->
+            <div id="product-grid" class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5 sm:gap-6">
+                <!-- Injected via JavaScript controller -->
+            </div>
+
+            <!-- Load More Controls -->
+            <div id="pagination-wrapper" class="mt-12 text-center pb-6">
+                <button id="load-more-btn" onclick="loadMoreProducts()" class="px-8 py-3.5 bg-white border border-neutral-300 hover:border-neutral-900 text-neutral-900 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 shadow-sm hover:shadow-md inline-flex items-center gap-2 group">
+                    <span>Load More Products</span>
+                    <i class="ph-bold ph-arrow-down group-hover:translate-y-0.5 transition-transform"></i>
+                </button>
+                <p id="showing-summary" class="text-xs text-neutral-500 mt-2 font-medium">
+                    <!-- Showing X of Y products -->
+                </p>
+            </div>
+        </section>
+
+        <!-- ============================================================= -->
+        <!-- AUTHORIZED BRANDS STRIP                                       -->
+        <!-- ============================================================= -->
+        <section class="bg-white border-y border-neutral-200/80 py-10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <p class="text-center text-xs font-bold uppercase tracking-[0.25em] text-neutral-400 mb-8">
+                    Authorized Wholesale Distribution Partners
+                </p>
+                <div class="flex flex-wrap items-center justify-center gap-8 sm:gap-14 opacity-80">
+                    <span class="text-base sm:text-lg font-extrabold tracking-tight text-neutral-900 hover:opacity-100 transition-opacity">JAQUAR</span>
+                    <span class="text-base sm:text-lg font-extrabold tracking-tight text-blue-600 hover:opacity-100 transition-opacity">WATERTEC</span>
+                    <span class="text-base sm:text-lg font-extrabold tracking-tight text-red-600 hover:opacity-100 transition-opacity">PRINCE PIPES</span>
+                    <span class="text-base sm:text-lg font-extrabold tracking-tight text-cyan-700 hover:opacity-100 transition-opacity">CERA</span>
+                    <span class="text-base sm:text-lg font-extrabold tracking-tight text-indigo-700 hover:opacity-100 transition-opacity">NIRALI NG</span>
+                    <span class="text-base sm:text-lg font-extrabold tracking-tight text-amber-700 hover:opacity-100 transition-opacity">TRUFLO</span>
+                    <span class="text-base sm:text-lg font-extrabold tracking-tight text-emerald-700 hover:opacity-100 transition-opacity">SUPERSTONE</span>
+                    <span class="text-base sm:text-lg font-extrabold tracking-tight text-blue-800 hover:opacity-100 transition-opacity">EURO FLOW</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================================= -->
+    <!-- PERSISTENT B2B RFQ CART DRAWER BACKDROP (Mobile & Desktop)     -->
+    <!-- ============================================================= -->
+    <div id="cart-drawer-backdrop" class="fixed inset-0 bg-neutral-950/75 backdrop-blur-sm z-50 hidden opacity-0 transition-opacity duration-300" onclick="toggleCartDrawer(false)"></div>
+    
+    <aside id="cart-drawer" class="fixed top-0 right-0 h-full w-full max-w-full sm:max-w-lg bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col">
+        
+        <!-- Drawer Header -->
+        <div class="p-5 border-b border-neutral-200/80 bg-neutral-950 text-white flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+                <div class="w-9 h-9 rounded-full bg-neutral-800 text-amber-400 flex items-center justify-center font-bold">
+                    <i class="ph-bold ph-receipt text-lg"></i>
+                </div>
+                <div>
+                    <h3 class="text-base font-bold text-white tracking-tight leading-none font-serif" data-i18n="cart_drawer_title">
+                        Wholesale Cart
+                    </h3>
+                    <p class="text-[11px] text-neutral-400 mt-1" data-i18n="cart_drawer_subtitle">
+                        Build your purchase order manifest
+                    </p>
+                </div>
+            </div>
+            
+            <button onclick="toggleCartDrawer(false)" class="p-2 text-neutral-400 hover:text-white rounded-full hover:bg-neutral-800 transition-colors" title="Close Drawer">
+                <i class="ph-bold ph-x text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Drawer Item List (Scrollable) -->
+        <div id="cart-items-container" class="flex-grow overflow-y-auto p-5 space-y-3.5 bg-neutral-50/50">
+            <!-- Dynamic Items Injected Here -->
+        </div>
+
+        <!-- Drawer Footer & Order CTAs -->
+        <div class="p-4 sm:p-5 border-t border-neutral-200/80 bg-white space-y-3.5 safe-area-drawer-bottom">
+            
+            <!-- Quick Buyer Metadata Form -->
+            <div class="space-y-2 bg-neutral-50 p-4 rounded-2xl border border-neutral-200/80 shadow-2xs">
+                <p class="text-[11px] font-bold uppercase tracking-wider text-neutral-900 flex items-center gap-1.5">
+                    <i class="ph-bold ph-storefront text-amber-600"></i>
+                    <span data-i18n="buyer_info_title">Buyer Information (Pre-fills WhatsApp Manifest)</span>
+                </p>
+                <div class="grid grid-cols-2 gap-2">
+                    <input type="text" id="buyer-firm" placeholder="Firm / Shop Name *" class="w-full text-xs p-2.5 bg-white border border-neutral-200 rounded-xl focus:border-neutral-900 focus:outline-none" value="Maharashtra Hardware & Sanitary">
+                    <input type="text" id="buyer-city" placeholder="City / District *" class="w-full text-xs p-2.5 bg-white border border-neutral-200 rounded-xl focus:border-neutral-900 focus:outline-none" value="Pune">
+                </div>
+                <input type="tel" id="buyer-phone" placeholder="Contact Mobile (e.g. 98220 00000)" class="w-full text-xs p-2.5 bg-white border border-neutral-200 rounded-xl focus:border-neutral-900 focus:outline-none">
+            </div>
+
+            <!-- Volume Summary -->
+            <div class="flex items-center justify-between text-xs font-semibold text-neutral-700 pt-1">
+                <span data-i18n="cart_total_items">Total Selected Products:</span>
+                <span id="cart-summary-types" class="font-bold text-neutral-900">0 items</span>
+            </div>
+            <div class="flex items-center justify-between text-sm font-extrabold text-neutral-900">
+                <span data-i18n="cart_total_volume">Total Order Volume:</span>
+                <span id="cart-summary-pieces" class="text-emerald-700 font-black">0 Pcs</span>
+            </div>
+
+            <!-- DUAL ACTION BUTTONS (The 2 Order Channels) -->
+            <div class="space-y-2.5 pt-1">
+                <!-- Option 1: WhatsApp B2B Order Desk -->
+                <button onclick="submitCartToWhatsApp()" class="w-full py-3.5 px-4 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 shadow-md hover:shadow-lg flex items-center justify-center gap-2 group">
+                    <i class="ph-bold ph-whatsapp-logo text-lg group-hover:scale-110 transition-transform"></i>
+                    <span data-i18n="btn_order_whatsapp">Order via WhatsApp Desk</span>
+                </button>
+
+                <!-- Option 2: Order on Master Sales App -->
+                <button onclick="openSmartAppStore()" class="w-full py-3 px-4 bg-neutral-950 hover:bg-neutral-800 text-white rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 flex items-center justify-center gap-2 shadow-sm">
+                    <i class="ph-bold ph-device-mobile text-lg text-amber-400"></i>
+                    <span data-i18n="btn_order_app">Order on Master Sales Mobile App</span>
+                </button>
+            </div>
+
+            <div class="flex items-center justify-between pt-1">
+                <button onclick="clearEntireCart()" class="text-[11px] text-rose-600 hover:underline flex items-center gap-1 font-semibold">
+                    <i class="ph-bold ph-trash"></i> <span data-i18n="btn_clear_manifest">Clear Manifest</span>
+                </button>
+                <span class="text-[10px] text-neutral-400" data-i18n="cart_footer_note">Master Sales Corporation &bull; Pune Hub</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- ============================================================= -->
+    <!-- PRODUCT QUICK-VIEW & HIGH-RES ZOOM LIGHTBOX MODAL             -->
+    <!-- ============================================================= -->
+    <div id="quickview-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-3 sm:p-5 bg-neutral-950/75 backdrop-blur-md transition-opacity duration-200" onclick="handleQuickviewBackdropClick(event)">
+        <div id="quickview-content" class="bg-white rounded-3xl shadow-2xl max-w-2xl w-full max-h-[92vh] overflow-y-auto transform scale-95 opacity-0 transition-all duration-200 border border-neutral-200/80 overflow-hidden flex flex-col md:flex-row">
+            
+            <!-- Left Column: Large Image Stage with Zoom -->
+            <div class="md:w-1/2 bg-neutral-50 p-6 flex flex-col items-center justify-center border-b md:border-b-0 md:border-r border-neutral-200/80 relative">
+                <span id="qv-brand-badge" class="absolute top-4 left-4 z-10 text-[9px] font-bold text-neutral-800 uppercase tracking-widest bg-white/95 px-3 py-1 rounded-full shadow-2xs border border-neutral-200">
+                    Superstone
+                </span>
+                <span id="qv-warranty-badge" class="absolute top-4 right-4 z-10 text-[9px] font-bold px-2.5 py-1 rounded-full bg-amber-500/15 text-amber-900 border border-amber-500/20 uppercase tracking-tight flex items-center gap-1">
+                    <i class="ph-bold ph-shield-check text-amber-600"></i>
+                    <span id="qv-warranty-text">5-Yr Wty</span>
+                </span>
+                
+                <div class="w-full h-52 sm:h-72 mt-5 sm:mt-0 flex items-center justify-center cursor-zoom-in overflow-hidden" onclick="toggleImageZoom(this)">
+                    <img id="qv-image" src="" alt="Product Image" class="max-h-full max-w-full object-contain drop-shadow-md transition-transform duration-300">
+                </div>
+                <p class="text-[10.5px] text-neutral-500 mt-2 font-medium flex items-center gap-1.5">
+                    <i class="ph-bold ph-magnifying-glass-plus text-amber-600"></i>
+                    <span data-i18n="tap_zoom_hint">Tap / Click photo to zoom in high-res</span>
+                </p>
+            </div>
+
+            <!-- Right Column: Specs & Direct Actions -->
+            <div class="md:w-1/2 p-5 sm:p-6 flex flex-col justify-between space-y-4">
+                <div>
+                    <!-- Top close button & SKU -->
+                    <div class="flex items-center justify-between pb-3 border-b border-neutral-100">
+                        <span id="qv-sku" class="text-xs font-mono font-bold px-2.5 py-1 rounded-full bg-neutral-100 text-neutral-800 border border-neutral-200">
+                            #02001
+                        </span>
+                        <button onclick="closeQuickviewModal()" class="text-neutral-400 hover:text-neutral-900 p-1 rounded-full transition-colors" aria-label="Close Quick View">
+                            <i class="ph-bold ph-x text-lg"></i>
+                        </button>
+                    </div>
+
+                    <div class="mt-3">
+                        <span id="qv-series" class="text-[11px] font-bold text-amber-700 uppercase tracking-wider block mb-1">
+                            Fusion Series
+                        </span>
+                        <h3 id="qv-title" class="text-base sm:text-lg font-bold text-neutral-900 tracking-tight leading-snug font-serif">
+                            Fusion Bib Cock
+                        </h3>
+                    </div>
+
+                    <!-- Product Attributes Matrix -->
+                    <div class="mt-4 space-y-2 text-xs">
+                        <div class="flex items-start justify-between py-1.5 border-b border-neutral-100">
+                            <span class="text-neutral-500" data-i18n="modal_status">Wholesale Status:</span>
+                            <span class="font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200/60 text-right text-[11px]" data-i18n="status_in_stock">Verified Stock Available</span>
+                        </div>
+                        <div class="flex items-start justify-between py-1.5 border-b border-neutral-100">
+                            <span class="text-neutral-500" data-i18n="modal_finish">Finish / Material:</span>
+                            <span id="qv-finish" class="font-semibold text-neutral-900 text-right">Chrome Plated Brass</span>
+                        </div>
+                        <div class="flex items-start justify-between py-1.5 border-b border-neutral-100">
+                            <span class="text-neutral-500" data-i18n="modal_pack">Packaging Unit:</span>
+                            <span id="qv-pack" class="font-semibold text-neutral-900 text-right">Standard Wholesale Packaging</span>
+                        </div>
+                        <div class="pt-2">
+                            <span class="text-neutral-500 block mb-1 font-semibold" data-i18n="modal_specs">Technical Specifications:</span>
+                            <p id="qv-specs" class="text-xs text-neutral-700 leading-relaxed bg-neutral-50 p-2.5 rounded-xl border border-neutral-200/80 font-mono">
+                                Solid forged brass, wall mount 1/2" BSP thread, quarter turn ceramic disc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Quantity & Order Buttons -->
+                <div class="pt-3 border-t border-neutral-100 space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-bold uppercase tracking-wider text-neutral-600" data-i18n="qty_label">Order Quantity:</span>
+                        <div class="flex items-center border border-neutral-200 rounded-full overflow-hidden bg-neutral-50 shadow-2xs">
+                            <button onclick="adjustQvQty(-10)" class="w-8 h-8 bg-neutral-100 hover:bg-neutral-200 active:scale-95 text-neutral-800 text-xs font-bold flex items-center justify-center">-</button>
+                            <input type="number" id="qv-qty-input" value="10" min="1" step="1" class="w-14 text-center text-xs font-bold text-neutral-900 py-1 bg-transparent focus:outline-none">
+                            <button onclick="adjustQvQty(10)" class="w-8 h-8 bg-neutral-100 hover:bg-neutral-200 active:scale-95 text-neutral-800 text-xs font-bold flex items-center justify-center">+</button>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2">
+                        <button id="qv-btn-add" onclick="addQvToCart()" class="py-3 px-3 bg-amber-400 hover:bg-amber-300 text-neutral-950 font-bold text-xs uppercase tracking-wider rounded-full shadow-sm transition-all flex items-center justify-center gap-1.5">
+                            <i class="ph-bold ph-plus text-sm"></i>
+                            <span data-i18n="btn_add">+ Add to Cart</span>
+                        </button>
+                        <button id="qv-btn-order" onclick="orderQvViaWhatsApp()" class="py-3 px-3 bg-neutral-950 hover:bg-neutral-800 text-white font-bold text-xs uppercase tracking-wider rounded-full shadow-sm transition-all flex items-center justify-center gap-1.5">
+                            <i class="ph-bold ph-whatsapp-logo text-emerald-400 text-sm"></i>
+                            <span data-i18n="btn_order">Direct Quote</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ============================================================= -->
+    <!-- DUAL OPTION ORDER MODAL (Individual Product Quick Order)      -->
+    <!-- ============================================================= -->
+    <div id="quote-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-neutral-950/70 backdrop-blur-md transition-opacity duration-200">
+        <div id="quote-modal-content" class="bg-white rounded-3xl shadow-2xl max-w-lg w-full max-h-[92vh] overflow-y-auto transform scale-95 opacity-0 transition-all duration-200 border border-neutral-200/80 overflow-hidden">
+            
+            <!-- Modal Header -->
+            <div class="bg-neutral-950 text-white p-5 flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-full bg-neutral-800 flex items-center justify-center text-amber-400">
+                        <i class="ph-bold ph-shopping-bag text-base"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-sm sm:text-base tracking-tight leading-none text-white font-serif" data-i18n="modal_quote_title">
+                            Direct Order &amp; Wholesale Inquiry
+                        </h3>
+                        <p class="text-[10px] tracking-wider text-neutral-400 uppercase font-semibold mt-1" data-i18n="modal_quote_sub">
+                            Choose your preferred order channel
+                        </p>
+                    </div>
+                </div>
+                <button onclick="closeQuoteModal()" class="text-neutral-400 hover:text-white p-1 rounded-full transition-colors" aria-label="Close Modal">
+                    <i class="ph-bold ph-x text-lg"></i>
+                </button>
+            </div>
+
+            <!-- Two Channel Tabs (WhatsApp vs Mobile App) -->
+            <div class="flex border-b border-neutral-200/80 bg-neutral-50">
+                <button id="modal-tab-whatsapp" onclick="switchModalTab('whatsapp')" class="flex-1 py-3 px-3 text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50/80 border-b-2 border-emerald-600 transition-colors flex items-center justify-center gap-1.5">
+                    <i class="ph-bold ph-whatsapp-logo text-base"></i>
+                    <span data-i18n="modal_tab_wa">1. WhatsApp Desk</span>
+                </button>
+                <button id="modal-tab-app" onclick="switchModalTab('app')" class="flex-1 py-3 px-3 text-xs font-bold uppercase tracking-wider text-neutral-500 hover:text-neutral-900 bg-neutral-50 border-b-2 border-transparent transition-colors flex items-center justify-center gap-1.5">
+                    <i class="ph-bold ph-device-mobile text-base"></i>
+                    <span data-i18n="modal_tab_app">2. Master Sales App</span>
+                </button>
+            </div>
+
+            <!-- Tab 1: WhatsApp Inquiry Content -->
+            <div id="modal-content-whatsapp" class="p-6">
+                <form id="quote-form" onsubmit="handleQuoteSubmit(event)" class="space-y-4">
+                    <div>
+                        <label for="contact-name" class="block text-xs font-bold uppercase tracking-wider text-neutral-800 mb-1" data-i18n="modal_label_name">
+                            Contact Person / Firm Name <span class="text-rose-500">*</span>
+                        </label>
+                        <input type="text" id="contact-name" required placeholder="e.g. Ramesh Patil (Patil Hardware)" class="w-full text-xs p-3 border border-neutral-200 rounded-xl focus:border-neutral-950 focus:ring-1 focus:ring-neutral-950 focus:outline-none transition-all">
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                            <label for="contact-phone" class="block text-xs font-bold uppercase tracking-wider text-neutral-800 mb-1" data-i18n="modal_label_phone">
+                                WhatsApp Number <span class="text-rose-500">*</span>
+                            </label>
+                            <input type="tel" id="contact-phone" required placeholder="e.g. 98220 12345" class="w-full text-xs p-3 border border-neutral-200 rounded-xl focus:border-neutral-950 focus:ring-1 focus:ring-neutral-950 focus:outline-none transition-all">
+                        </div>
+                        <div>
+                            <label for="contact-city" class="block text-xs font-bold uppercase tracking-wider text-neutral-800 mb-1" data-i18n="modal_label_city">
+                                City / District <span class="text-rose-500">*</span>
+                            </label>
+                            <input type="text" id="contact-city" required placeholder="e.g. Pune / Satara" class="w-full text-xs p-3 border border-neutral-200 rounded-xl focus:border-neutral-950 focus:ring-1 focus:ring-neutral-950 focus:outline-none transition-all">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="quote-notes" class="block text-xs font-bold uppercase tracking-wider text-neutral-800 mb-1" data-i18n="modal_label_notes">
+                            Product Details &amp; Quantity
+                        </label>
+                        <textarea id="quote-notes" rows="3" placeholder="Enter product names, SKU numbers, or estimated box quantities needed..." class="w-full text-xs p-3 border border-neutral-200 rounded-xl focus:border-neutral-950 focus:ring-1 focus:ring-neutral-950 focus:outline-none transition-all font-mono"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-full text-xs uppercase tracking-wider transition-all duration-300 shadow-md flex items-center justify-center gap-2">
+                        <i class="ph-bold ph-whatsapp-logo text-base"></i>
+                        <span data-i18n="modal_submit_btn">Send Order Inquiry to +91 86000 21528</span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Tab 2: Mobile App Download Content -->
+            <div id="modal-content-app" class="p-6 hidden text-center space-y-5">
+                <div class="w-16 h-16 rounded-2xl bg-amber-50 text-amber-700 flex items-center justify-center mx-auto text-3xl shadow-sm border border-amber-200/60">
+                    <i class="ph-bold ph-device-mobile"></i>
+                </div>
+                
+                <div>
+                    <h4 class="text-base font-bold text-neutral-900 font-serif" data-i18n="modal_app_title">Master Sales B2B Mobile App</h4>
+                    <p class="text-xs text-neutral-500 mt-1 max-w-sm mx-auto leading-relaxed" data-i18n="modal_app_desc">
+                        Download the official Master Sales mobile application for instant wholesale stock check, real-time dealer pricing, and digital order dispatch tracking.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                    <a href="https://play.google.com/store/apps/details?id=com.mastersalescorp" target="_blank" rel="noopener noreferrer" class="py-3 px-4 bg-neutral-950 hover:bg-neutral-800 text-white rounded-2xl text-xs font-bold transition-all flex items-center justify-center gap-2 shadow-sm">
+                        <i class="ph-bold ph-google-play-logo text-emerald-400 text-lg"></i>
+                        <div class="text-left">
+                            <div class="text-[9px] text-neutral-400 uppercase leading-none">Get it on</div>
+                            <div class="text-xs font-black">Google Play</div>
+                        </div>
+                    </a>
+
+                    <a href="https://apps.apple.com/in/app/master-sales-corporation/id6738718610" target="_blank" rel="noopener noreferrer" class="py-3 px-4 bg-neutral-950 hover:bg-neutral-800 text-white rounded-2xl text-xs font-bold transition-all flex items-center justify-center gap-2 shadow-sm">
+                        <i class="ph-bold ph-apple-logo text-white text-lg"></i>
+                        <div class="text-left">
+                            <div class="text-[9px] text-neutral-400 uppercase leading-none">Download on</div>
+                            <div class="text-xs font-black">App Store</div>
+                        </div>
+                    </a>
+                </div>
+
+                <p class="text-[11px] text-neutral-400">
+                    Official App IDs: <code class="font-mono text-neutral-800 font-bold">com.mastersalescorp</code> (Android) &bull; <code class="font-mono text-neutral-800 font-bold">id6738718610</code> (iOS)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================= -->
+    <!-- FLOATING TOAST NOTIFICATION CONTAINER                         -->
+    <!-- ============================================================= -->
+    <div id="toast-container" class="fixed bottom-20 sm:bottom-6 right-3 sm:right-6 left-3 sm:left-auto max-w-sm sm:max-w-none mx-auto sm:mx-0 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+    <!-- ============================================================= -->
+    <!-- Floating Dynamic Island Mobile Navigation Dock -->
+    <nav class="md:hidden fixed bottom-3 inset-x-3 z-40 max-w-md mx-auto bg-neutral-950/92 backdrop-blur-2xl border border-white/15 text-white py-1.5 px-3 rounded-full shadow-[0_12px_36px_rgba(0,0,0,0.55)] flex items-center justify-between safe-area-dock transition-all duration-300">
+        <a href="index.html" class="flex flex-col items-center justify-center py-1 px-3 text-neutral-300 hover:text-white transition-colors" aria-label="Home">
+            <i class="ph-bold ph-house text-lg"></i>
+            <span class="text-[9px] font-bold tracking-tight mt-0.5" data-i18n="dock_home">Home</span>
+        </a>
+        <a href="catalog.html" class="flex flex-col items-center justify-center py-1 px-3 text-amber-400 hover:text-amber-300 transition-colors" aria-label="Wholesale Catalog">
+            <i class="ph-bold ph-squares-four text-lg"></i>
+            <span class="text-[9px] font-bold tracking-tight mt-0.5" data-i18n="dock_catalog">Catalog</span>
+        </a>
+        <button onclick="toggleCartDrawer(true)" class="relative flex flex-col items-center justify-center py-1 px-3 text-neutral-300 hover:text-white transition-colors" aria-label="Cart">
+            <div class="relative">
+                <i class="ph-bold ph-shopping-cart-simple text-lg"></i>
+                <span id="dock-rfq-badge" class="absolute -top-1.5 -right-2.5 bg-amber-500 text-neutral-950 text-[9px] font-black w-4 h-4 rounded-full flex items-center justify-center shadow-md">0</span>
+            </div>
+            <span class="text-[9px] font-bold tracking-tight mt-0.5" data-i18n="dock_rfq">Cart</span>
+        </button>
+        <a href="https://wa.me/918600021528?text=Hello%20Master%20Sales%20Corporation,%20I%20am%20a%20dealer/contractor%20and%20would%20like%20to%20inquire%20about%20wholesale%20catalog%20and%20orders." target="_blank" rel="noopener noreferrer" class="flex flex-col items-center justify-center py-1 px-3 text-emerald-400 hover:text-emerald-300 transition-colors" aria-label="WhatsApp Trade Desk">
+            <i class="ph-bold ph-whatsapp-logo text-lg"></i>
+            <span class="text-[9px] font-bold tracking-tight mt-0.5" data-i18n="dock_whatsapp">WhatsApp</span>
+        </a>
+        <button onclick="openSmartAppStore()" class="flex flex-col items-center justify-center py-1 px-2.5 text-neutral-400 hover:text-white transition-colors" aria-label="Trade App">
+            <i class="ph-bold ph-device-mobile text-lg"></i>
+            <span class="text-[9px] font-bold tracking-tight mt-0.5" data-i18n="dock_app">App</span>
+        </button>
+    </nav>
+
+    <!-- ============================================================= -->
+    <!-- FOOTER                                                        -->
+    <!-- ============================================================= -->
+    <footer class="bg-neutral-950 text-white border-t border-neutral-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Col 1: Identity (Clear Transparent Logo + PDF Matched Typography) -->
+                <div class="space-y-4">
+                    <a href="index.html" class="inline-flex items-center mb-4 group focus:outline-none">
+                        <img src="msc_logo_white.png" alt="Master Sales Corporation - Complete Bathroom Solutions" class="h-13 sm:h-16 w-auto object-contain transition-transform group-hover:scale-[1.02] drop-shadow-sm">
+                    </a>
+                    <p class="text-xs text-neutral-400 font-light leading-relaxed" data-i18n="footer_desc">
+                        Authorized B2B Wholesale Distributor of bath fittings, sanitaryware, valves, and plumbing systems. Serving trade partners since 2021.
+                    </p>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-[10px] text-neutral-300 font-mono">
+                        <i class="ph-bold ph-certificate text-amber-400"></i>
+                        <span data-i18n="footer_iso">ISO 9001:2015 Certified QMS</span>
+                    </div>
+                </div>
+
+                <!-- Col 2: Order Channels -->
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-white mb-4" data-i18n="footer_channels_title">Ordering Channels</h4>
+                    <ul class="space-y-2.5 text-xs text-gray-300">
+                        <li>
+                            <a href="https://wa.me/918600021528" target="_blank" class="hover:text-emerald-400 transition-colors flex items-center gap-2">
+                                <i class="ph-bold ph-whatsapp-logo text-emerald-400 text-sm"></i> WhatsApp Desk: +91 86000 21528
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.mastersalescorp" target="_blank" class="hover:text-white transition-colors flex items-center gap-2">
+                                <i class="ph-bold ph-google-play-logo text-emerald-400 text-sm"></i> Android App (Google Play)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://apps.apple.com/in/app/master-sales-corporation/id6738718610" target="_blank" class="hover:text-white transition-colors flex items-center gap-2">
+                                <i class="ph-bold ph-apple-logo text-white text-sm"></i> iOS App (Apple App Store)
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Central Warehouse Depot -->
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-white mb-4" data-i18n="footer_ware_title">Central Warehouse Depot</h4>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        <strong class="text-white block font-medium" data-i18n="footer_ware_name">Master Sales Corporation</strong>
+                        <span data-i18n="footer_address">Sr no 118/5, Opp Uruli Devachi Police Station,<br>
+                        Near Jagruti Transport, Uruli Devachi,<br>
+                        Pune, Maharashtra 412308, India</span>
+                    </p>
+                    <div class="mt-3 text-xs text-gray-300 space-y-1">
+                        <div><strong class="text-gray-400 font-normal" data-i18n="footer_direct_lines">Direct Lines:</strong> +91 86000 21528 / 29</div>
+                        <div><strong class="text-gray-400 font-normal" data-i18n="footer_support_line">Support:</strong> +91 86000 52564</div>
+                    </div>
+                </div>
+
+                <!-- Col 4: Trade Navigation -->
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-widest text-white mb-4" data-i18n="footer_nav_title">Quick Navigation</h4>
+                    <ul class="space-y-2 text-xs text-gray-400">
+                        <li><a href="index.html" class="hover:text-white transition-colors" data-i18n="footer_nav_home">Home Page</a></li>
+                        <li><a href="catalog.html" class="hover:text-white transition-colors text-amber-400 font-bold" data-i18n="footer_nav_catalog">Wholesale Catalog (1,900+ Products)</a></li>
+                        <li><a href="index.html#about" class="hover:text-white transition-colors" data-i18n="footer_nav_about">About Us &amp; Founders</a></li>
+                        <li><a href="index.html#contact" class="hover:text-white transition-colors" data-i18n="footer_nav_contact">Contact Wholesale Desk</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+                <p data-i18n="footer_copy">&copy; 2024–2026 Master Sales Corporation. All Rights Reserved. Pune, Maharashtra.</p>
+                <p class="font-mono text-[11px]" data-i18n="footer_hub">B2B Wholesale Operations &bull; Uruli Devachi Logistics Hub</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load the comprehensive catalog dataset -->
+    <script src="catalog_data.js"></script>
+
+    <!-- Catalog Page Controller & Cart Management Script -->
+    <script>
+        // -------------------------------------------------------------
+        // MULTI-LANGUAGE TRANSLATION DICTIONARY (English & Marathi)
+        // -------------------------------------------------------------
+                const MSC_TRANSLATIONS = {
+            en: {
+                warehouse_location: "Uruli Devachi Central Warehouse, Pune",
+                whatsapp_desk: "WhatsApp Desk",
+                rfq_cart: "Cart",
+                download_pdf: "Download PDF Catalog",
+                order_whatsapp: "Order Desk WhatsApp",
+                drawer_lang_label: "भाषा / Language",
+                nav_home: "Home Overview",
+                nav_catalog: "Wholesale Catalog",
+                nav_catalog_full: "Full Wholesale Catalog (1,900+ SKUs)",
+                badge_active: "ACTIVE",
+                nav_brands: "Authorized Brands",
+                nav_about: "Leadership & Origin",
+                nav_contact: "Warehouse Contact Desk",
+                nav_contact_short: "Contact Desk",
+                skus_badge: "1,900+ SKUs",
+                view_rfq: "View Cart",
+                trade_desk: "Trade Desk",
+                order_in_app: "Order in App",
+                catalog_status_pill: "Official Wholesale Catalog • 1,900+ SKUs",
+                modal_status: "Wholesale Status:",
+                status_in_stock: "Verified Stock Available",
+                catalog_hero_title: "Complete Wholesale <span class=\"italic text-amber-700\">Bathroom & Plumbing Solutions</span>",
+                catalog_hero_desc: "Supplying hardware stores, plumbing contractors & sanitaryware retailers across 23 districts in Maharashtra, Goa & Karnataka with direct OEM dispatch.",
+                search_placeholder: "Search by SKU, product name, brand, or series...",
+                all_series: "All Series & Collections",
+                cat_all: "All Products",
+                cat_faucets: "CP Faucets & PTMT",
+                cat_showers: "Showers & Health Faucets",
+                cat_valves: "Valves & Cocks",
+                cat_allied: "CP Allied & Accessories",
+                cat_sanitary: "Sanitaryware & Sinks",
+                cat_plumbing: "GI, UPVC & CPVC Fittings",
+                cat_accessories: "Bathroom Accessories",
+                cat_hardware: "Hardware & Clamps",
+                organized_lines: "Organized B2B Product Lines",
+                catalog_collections: "Wholesale <span class=\"font-serif italic font-bold text-amber-700\">Catalog Collections</span>",
+                showing_items: "Showing all available wholesale items",
+                gst_invoicing: "GST B2B Invoicing & Fast Dispatch",
+                open_rfq_manifest: "Open Cart",
+                catalog_empty_title: "No matching products found",
+                catalog_empty_desc: "Try adjusting your search terms, check the SKU number, or browse by category above.",
+                catalog_empty_reset: "Reset All Filters",
+                cart_drawer_title: "Wholesale Cart",
+                cart_drawer_subtitle: "Build your purchase order manifest",
+                buyer_info_title: "Buyer Information (Pre-fills WhatsApp Manifest)",
+                cart_total_items: "Total Selected Products:",
+                cart_total_volume: "Total Order Volume:",
+                btn_order_whatsapp: "Order via WhatsApp Desk",
+                btn_order_app: "Order on Master Sales Mobile App",
+                btn_clear_manifest: "Clear Manifest",
+                cart_footer_note: "Master Sales Corporation &bull; Pune Hub",
+                tap_zoom_hint: "Tap / Click photo to zoom in high-res",
+                modal_finish: "Finish / Material:",
+                modal_pack: "Packaging Unit:",
+                modal_specs: "Technical Specifications:",
+                qty_label: "Order Quantity:",
+                btn_add: "+ Add to Cart",
+                btn_order: "Direct Quote",
+                load_more: "Load More Products",
+                modal_quote_title: "Direct Order & Wholesale Inquiry",
+                modal_quote_sub: "Choose your preferred order channel",
+                modal_tab_wa: "1. WhatsApp Desk",
+                modal_tab_app: "2. Master Sales App",
+                modal_label_name: "Contact Person / Firm Name *",
+                modal_label_phone: "WhatsApp Number *",
+                modal_label_city: "City / District *",
+                modal_label_notes: "Product Details & Quantity",
+                modal_submit_btn: "Send Order Inquiry to +91 86000 21528",
+                modal_app_title: "Master Sales B2B Mobile App",
+                modal_app_desc: "Download the official Master Sales mobile application for instant wholesale stock check, digital catalog browsing, and digital order dispatch tracking.",
+                dock_home: "Home",
+                dock_catalog: "Catalog",
+                dock_rfq: "Cart",
+                dock_whatsapp: "WhatsApp",
+                dock_app: "App",
+                footer_desc: "Authorized B2B Wholesale Distributor of bath fittings, sanitaryware, valves, and plumbing systems. Serving trade partners since 2021.",
+                footer_iso: "ISO 9001:2015 Certified QMS",
+                footer_channels_title: "Ordering Channels",
+                footer_ware_title: "Central Warehouse Depot",
+                footer_ware_name: "Master Sales Corporation",
+                footer_address: "Sr no 118/5, Opp Uruli Devachi Police Station,<br>Near Jagruti Transport, Uruli Devachi,<br>Pune, Maharashtra 412308, India",
+                footer_direct_lines: "Direct Lines:",
+                footer_support_line: "Support:",
+                footer_nav_title: "Quick Navigation",
+                footer_nav_home: "Home Page",
+                footer_nav_catalog: "Wholesale Catalog (1,900+ Products)",
+                footer_nav_about: "About Us & Founders",
+                footer_nav_contact: "Contact Wholesale Desk",
+                footer_copy: "&copy; 2024–2026 Master Sales Corporation. All Rights Reserved. Pune, Maharashtra.",
+                footer_hub: "B2B Wholesale Operations &bull; Uruli Devachi Logistics Hub"
+            },
+            mr: {
+                warehouse_location: "उरुळी देवाची मध्यवर्ती गोदाम, पुणे",
+                whatsapp_desk: "व्हॉट्सॲप डेस्क",
+                rfq_cart: "कार्ट",
+                download_pdf: "कॅटलॉग PDF डाउनलोड करा",
+                order_whatsapp: "व्हॉट्सॲप ऑर्डर डेस्क",
+                drawer_lang_label: "भाषा निवडा / Language",
+                nav_home: "मुख्यपृष्ठ",
+                nav_catalog: "घाऊक कॅटलॉग",
+                nav_catalog_full: "संपूर्ण घाऊक कॅटलॉग (१,९००+ उत्पादने)",
+                badge_active: "सक्रिय",
+                nav_brands: "अधिकृत ब्रँड्स",
+                nav_about: "आमच्याबद्दल",
+                nav_contact: "गोदाम संपर्क केंद्र",
+                nav_contact_short: "संपर्क केंद्र",
+                skus_badge: "१,९००+ उत्पादने",
+                view_rfq: "कार्ट पहा",
+                trade_desk: "ट्रेड डेस्क",
+                order_in_app: "ॲपवर ऑर्डर करा",
+                catalog_status_pill: "अधिकृत घाऊक कॅटलॉग • १,९००+ उत्पादने",
+                modal_status: "घाऊक उपलब्धता:",
+                status_in_stock: "प्रमाणित साठा उपलब्ध",
+                catalog_hero_title: "बाथरुम आणि प्लंबिंगचे <span class=\"italic text-amber-700\">संपूर्ण घाऊक भांडार</span>",
+                catalog_hero_desc: "महाराष्ट्र, गोवा आणि कर्नाटकातील २३ जिल्ह्यांमधील हार्डवेअर दुकाने, प्लंबिंग कंत्राटदार आणि सॅनिटरीवेअर विक्रेत्यांसाठी थेट फॅक्टरी पुरवठा.",
+                search_placeholder: "SKU कोड, उत्पादनाचे नाव किंवा ब्रँड शोधा...",
+                all_series: "सर्व सिरीज आणि कलेक्शन्स",
+                cat_all: "सर्व उत्पादने",
+                cat_faucets: "कॉक आणि नळ (CP & PTMT)",
+                cat_showers: "शॉवर्स आणि हेल्थ फॉसेट",
+                cat_valves: "व्हॉल्व्ह आणि कॉक",
+                cat_allied: "अलाईड फिटिंग्स",
+                cat_sanitary: "सॅनिटरीवेअर आणि सिंक",
+                cat_plumbing: "पाईप आणि फिटिंग्स",
+                cat_accessories: "बाथरुम अॅक्सेसरीज",
+                cat_hardware: "हार्डवेअर आणि क्लॅम्प्स",
+                organized_lines: "सर्व B2B उत्पादन श्रेणी",
+                catalog_collections: "घाऊक <span class=\"font-serif italic font-bold text-amber-700\">कॅटलॉग संग्रह</span>",
+                showing_items: "सर्व उपलब्ध घाऊक उत्पादने दर्शवित आहे",
+                gst_invoicing: "GST B2B बिलिंग आणि जलद डिस्पॅच",
+                open_rfq_manifest: "कार्ट उघडा",
+                catalog_empty_title: "कोणतेही उत्पादन सापडले नाही",
+                catalog_empty_desc: "कृपया शोध शब्द तपासा, SKU क्रमांक तपासा किंवा वरील श्रेणींमधून निवडा.",
+                catalog_empty_reset: "सर्व फिल्टर्स रीसेट करा",
+                cart_drawer_title: "घाऊक कार्ट",
+                cart_drawer_subtitle: "तुमची घाऊक खरेदी मागणी तयार करा",
+                buyer_info_title: "खरेदीदार माहिती (WhatsApp मागणीमध्ये समाविष्ट होईल)",
+                cart_total_items: "निवडलेली उत्पादने:",
+                cart_total_volume: "एकूण नग संख्या:",
+                btn_order_whatsapp: "WhatsApp वर मागणी पाठवा",
+                btn_order_app: "मास्टर सेल्स मोबाईल ॲपवर ऑर्डर करा",
+                btn_clear_manifest: "यादी रिकामी करा",
+                cart_footer_note: "मास्टर सेल्स कॉर्पोरेशन &bull; पुणे मध्यवर्ती केंद्र",
+                tap_zoom_hint: "हाय-डेफिनिशन झूम करण्यासाठी फोटोवर टॅप करा",
+                modal_finish: "फिनिश / मटेरियल:",
+                modal_pack: "पॅकिंग युनिट:",
+                modal_specs: "तांत्रिक तपशील:",
+                qty_label: "ऑर्डर नग संख्या:",
+                btn_add: "+ कार्टमध्ये जोडा",
+                btn_order: "थेट व्हॉट्सॲप चौकशी",
+                load_more: "आणखी उत्पादने पहा",
+                modal_quote_title: "थेट ऑर्डर आणि घाऊक चौकशी",
+                modal_quote_sub: "तुमची पसंतीची ऑर्डर पद्धत निवडा",
+                modal_tab_wa: "१. व्हॉट्सॲप डेस्क",
+                modal_tab_app: "२. मास्टर सेल्स ॲप",
+                modal_label_name: "संपर्क व्यक्ती / दुकानाचे नाव *",
+                modal_label_phone: "व्हॉट्सॲप क्रमांक *",
+                modal_label_city: "डिलिव्हरीचे शहर / जिल्हा *",
+                modal_label_notes: "उत्पादन तपशील आणि नग संख्या",
+                modal_submit_btn: "+९१ ८६००० २१५२८ वर मागणी पाठवा",
+                modal_app_title: "मास्टर सेल्स B2B मोबाईल ॲप",
+                modal_app_desc: "थेट घाऊक साठा तपासण्यासाठी, डिजिटल कॅटलॉग पाहण्यासाठी आणि ऑर्डर ट्रॅकिंगसाठी अधिकृत मास्टर सेल्स मोबाईल ॲप डाउनलोड करा.",
+                dock_home: "मुख्यपृष्ठ",
+                dock_catalog: "कॅटलॉग",
+                dock_rfq: "कार्ट",
+                dock_whatsapp: "व्हॉट्सॲप",
+                dock_app: "ॲप",
+                footer_desc: "बाथ फिटिंग्स, सॅनिटरीवेअर, व्हॉल्व्ह आणि प्लंबिंग सिस्टीम्सचे अधिकृत B2B घाऊक वितरक. २०२१ पासून सेवा देत आहोत.",
+                footer_iso: "ISO 9001:2015 प्रमाणित QMS",
+                footer_channels_title: "ऑर्डर करण्याचे मार्ग",
+                footer_ware_title: "मध्यवर्ती गोदाम केंद्र",
+                footer_ware_name: "मास्टर सेल्स कॉर्पोरेशन",
+                footer_address: "सर्व्हे नं. ११८/५, उरुळी देवाची पोलीस स्टेशन समोर,<br>जागृती ट्रान्सपोर्ट जवळ, उरुळी देवाची,<br>पुणे, महाराष्ट्र ४१२३०८, भारत",
+                footer_direct_lines: "थेट संपर्क:",
+                footer_support_line: "ग्राहक सहाय्य:",
+                footer_nav_title: "जलद मार्गक्रमण",
+                footer_nav_home: "मुख्यपृष्ठ",
+                footer_nav_catalog: "घाऊक कॅटलॉग (१,९००+ उत्पादने)",
+                footer_nav_about: "आमच्याबद्दल",
+                footer_nav_contact: "गोदाम संपर्क केंद्र",
+                footer_copy: "&copy; २०२४–२०२६ मास्टर सेल्स कॉर्पोरेशन. सर्व हक्क राखीव. पुणे, महाराष्ट्र.",
+                footer_hub: "B2B घाऊक संचालन &bull; उरुळी देवाची लॉजिस्टिक हब"
+            }
+        };
+
+        let currentLanguage = localStorage.getItem('msc_language') || 'en';
+
+        function setLanguage(lang) {
+            currentLanguage = lang;
+            localStorage.setItem('msc_language', lang);
+            if (lang === 'mr') {
+                document.body.classList.add('lang-mr');
+                document.documentElement.lang = 'mr';
+            } else {
+                document.body.classList.remove('lang-mr');
+                document.documentElement.lang = 'en';
+            }
+            updateLanguageUI();
+            if (typeof initSeriesOptions === 'function') initSeriesOptions();
+            applyFilters();
+            renderProducts();
+        }
+
+        function toggleLanguage() {
+            setLanguage(currentLanguage === 'en' ? 'mr' : 'en');
+        }
+
+        function updateLanguageUI() {
+            const dict = MSC_TRANSLATIONS[currentLanguage] || MSC_TRANSLATIONS.en;
+            const isMr = currentLanguage === 'mr';
+
+            if (isMr) {
+                document.body.classList.add('lang-mr');
+                document.documentElement.lang = 'mr';
+            } else {
+                document.body.classList.remove('lang-mr');
+                document.documentElement.lang = 'en';
+            }
+            
+            // Update all data-i18n elements
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (dict[key]) el.innerHTML = dict[key];
+            });
+
+            // Update search placeholder
+            const searchInput = document.getElementById('catalog-search-input');
+            if (searchInput) searchInput.placeholder = dict.search_placeholder;
+
+            // Update buyer input placeholders
+            const buyerFirm = document.getElementById('buyer-firm');
+            if (buyerFirm) buyerFirm.placeholder = isMr ? 'फर्म / दुकानाचे नाव *' : 'Firm / Shop Name *';
+
+            const buyerCity = document.getElementById('buyer-city');
+            if (buyerCity) buyerCity.placeholder = isMr ? 'शहर / जिल्हा *' : 'City / District *';
+
+            const buyerPhone = document.getElementById('buyer-phone');
+            if (buyerPhone) buyerPhone.placeholder = isMr ? 'मोबाईल क्र. (उदा. ९८२२० ०००००)' : 'Contact Mobile (e.g. 98220 00000)';
+
+            // Quote modal placeholders
+            const contactName = document.getElementById('contact-name');
+            if (contactName) contactName.placeholder = isMr ? 'उदा. रमेश पाटील (पाटील हार्डवेअर)' : 'e.g. Ramesh Patil (Patil Hardware)';
+
+            const contactPhone = document.getElementById('contact-phone');
+            if (contactPhone) contactPhone.placeholder = isMr ? 'उदा. ९८२२० १२३४५' : 'e.g. 98220 12345';
+
+            const contactCity = document.getElementById('contact-city');
+            if (contactCity) contactCity.placeholder = isMr ? 'उदा. पुणे / सातारा' : 'e.g. Pune / Satara';
+
+            const quoteNotes = document.getElementById('quote-notes');
+            if (quoteNotes) quoteNotes.placeholder = isMr ? 'उत्पादनाचे नाव, SKU कोड किंवा आवश्यक बॉक्स नग लिहा...' : 'Enter product names, SKU numbers, or estimated box quantities needed...';
+
+            // Update mobile language button label
+            const mobileLangText = document.getElementById('mobile-lang-text');
+            if (mobileLangText) mobileLangText.textContent = isMr ? 'मराठी' : 'English';
+
+            // Desktop toggle buttons
+            const btnEn = document.getElementById('lang-btn-en');
+            const btnMr = document.getElementById('lang-btn-mr');
+            if (btnEn && btnMr) {
+                if (currentLanguage === 'en') {
+                    btnEn.className = 'px-2.5 py-0.5 rounded-full font-bold transition-all text-amber-300 bg-white/20';
+                    btnMr.className = 'px-2.5 py-0.5 rounded-full font-bold transition-all text-white/80 hover:text-white';
+                } else {
+                    btnEn.className = 'px-2.5 py-0.5 rounded-full font-bold transition-all text-white/80 hover:text-white';
+                    btnMr.className = 'px-2.5 py-0.5 rounded-full font-bold transition-all text-amber-300 bg-white/20';
+                }
+            }
+
+            // Drawer toggle buttons
+            const dEn = document.getElementById('drawer-lang-en');
+            const dMr = document.getElementById('drawer-lang-mr');
+            if (dEn && dMr) {
+                if (currentLanguage === 'en') {
+                    dEn.className = 'px-2.5 py-1 text-xs font-bold rounded-md bg-neutral-950 text-white transition-all';
+                    dMr.className = 'px-2.5 py-1 text-xs font-bold rounded-md text-neutral-600 hover:text-neutral-950 transition-all';
+                } else {
+                    dEn.className = 'px-2.5 py-1 text-xs font-bold rounded-md text-neutral-600 hover:text-neutral-950 transition-all';
+                    dMr.className = 'px-2.5 py-1 text-xs font-bold rounded-md bg-neutral-950 text-white transition-all';
+                }
+            }
+
+            // Load more button text
+            const loadBtn = document.getElementById('load-more-btn');
+            if (loadBtn) {
+                const sp = loadBtn.querySelector('span');
+                if (sp) sp.innerText = dict.load_more;
+            }
+
+            // Re-render cart items for language update
+            if (typeof renderCartItems === 'function') renderCartItems();
+            if (typeof initSeriesOptions === 'function') initSeriesOptions();
+        }
+
+        // -------------------------------------------------------------
+        // APPLICATION STATE
+        // -------------------------------------------------------------
+        let allProducts = typeof MSC_CATALOG !== 'undefined' ? MSC_CATALOG : [];
+        let filteredProducts = [...allProducts];
+        let currentCategory = 'all';
+        let currentSeries = 'all';
+        let currentSearchQuery = '';
+        let displayLimit = 24;
+        const PAGE_STEP = 24;
+
+        // Persistent Cart (stored in localStorage)
+        let rfqCart = [];
+        try {
+            const saved = localStorage.getItem('msc_rfq_cart');
+            if (saved) rfqCart = JSON.parse(saved);
+        } catch (e) {
+            console.warn('LocalStorage error:', e);
+            rfqCart = [];
+        }
+
+        // -------------------------------------------------------------
+        // INITIALIZATION
+        // -------------------------------------------------------------
+        document.addEventListener('DOMContentLoaded', () => {
+            updateLanguageUI();
+            initCategoryCounts();
+            initSeriesOptions();
+            applyFilters();
+            updateCartBadge();
+            renderCartItems();
+
+            // Check URL parameters (e.g. ?sku=15001 or ?q=15001&view=1 or ?cat=JAQUAR or ?openCart=1)
+            const urlParams = new URLSearchParams(window.location.search);
+            const catParam = urlParams.get('cat');
+            const queryParam = urlParams.get('q');
+            const skuParam = urlParams.get('sku') || (urlParams.get('view') === '1' ? queryParam : null);
+
+            if (catParam) {
+                setCategoryFilter(catParam);
+            }
+            if (queryParam) {
+                const inp = document.getElementById('catalog-search-input');
+                if (inp) inp.value = queryParam;
+                currentSearchQuery = queryParam.trim().toLowerCase();
+                const clearBtn = document.getElementById('search-clear-btn');
+                if (clearBtn) clearBtn.classList.remove('hidden');
+                applyFilters();
+            }
+            if (skuParam) {
+                const cleanSku = skuParam.trim().toLowerCase();
+                const found = allProducts.find(p => p.sku.toLowerCase() === cleanSku);
+                if (found) {
+                    currentSearchQuery = found.sku.toLowerCase();
+                    const inp = document.getElementById('catalog-search-input');
+                    if (inp) inp.value = found.name;
+                    applyFilters();
+                    setTimeout(() => {
+                        openQuickview(found.sku);
+                    }, 250);
+                }
+            }
+            if (urlParams.get('openCart') === '1') {
+                toggleCartDrawer(true);
+            }
+        });
+
+        // -------------------------------------------------------------
+        // CATEGORY COUNTS & DYNAMIC SERIES
+        // -------------------------------------------------------------
+        function initCategoryCounts() {
+            const countAll = document.getElementById('count-all');
+            if (countAll) countAll.innerText = allProducts.length;
+
+            const catMap = {
+                'jaquar': 'JAQUAR',
+                'watertec': 'WATERTEC',
+                'cp-allied': 'CP ALLIED ITEMS & CONNECTION PIPES',
+                'superstone': 'SUPERSTONE FAUCETS',
+                'gi-fittings': 'GI FITTINGS',
+                'showers': 'HEALTH FAUCETS & SHOWERS',
+                'valves': 'BALL VALVES & COCKS',
+                'sanitary': 'FLUSH TANKS & SANITARYWARE ALLIED ITEMS',
+                'clamps': 'CLIPS & CLAMPS',
+                'bolts': 'BOLTS & FITTINGS',
+                'pvc': 'PVC COCKS & ALLIED ITEMS',
+                'essco': 'ESSCO',
+                'ptmt': 'PTMT FAUCETS',
+                'manhole': 'MANHOLE COVERS',
+                'nirali': 'NIRALI'
+            };
+
+            for (const [idKey, exCat] of Object.entries(catMap)) {
+                const el = document.getElementById(`count-${idKey}`);
+                if (el) {
+                    const count = allProducts.filter(p => (p.excelCategory === exCat || (p.category && p.category.toUpperCase() === exCat))).length;
+                    el.innerText = count;
+                }
+            }
+        }
+
+        function initSeriesOptions() {
+            const sel = document.getElementById('series-select');
+            if (!sel) return;
+            const isMr = currentLanguage === 'mr';
+            
+            const subcatMap = new Map();
+            const sourceProducts = currentCategory === 'all' 
+                ? allProducts 
+                : allProducts.filter(p => (p.excelCategory === currentCategory || p.category === currentCategory));
+
+            sourceProducts.forEach(p => {
+                const s = (p.subcategory || p.series || '').trim();
+                if (s && s !== 'None') {
+                    subcatMap.set(s, (subcatMap.get(s) || 0) + 1);
+                }
+            });
+
+            const sortedSeries = Array.from(subcatMap.keys()).sort((a, b) => a.localeCompare(b));
+            let html = `<option value="all">${isMr ? 'सर्व उप-श्रेण्या आणि सिरीज' : 'All Series & Subcategories'}</option>`;
+            
+            sortedSeries.forEach(s => {
+                const count = subcatMap.get(s);
+                const selected = currentSeries === s ? 'selected' : '';
+                html += `<option value="${s.replace(/"/g, '&quot;')}" ${selected}>${s} (${count})</option>`;
+            });
+            sel.innerHTML = html;
+        }
+
+        // -------------------------------------------------------------
+        // FILTERING & SEARCH CONTROLLER
+        // -------------------------------------------------------------
+        function setCategoryFilter(cat) {
+            currentCategory = cat;
+            currentSeries = 'all'; // reset subcategory on category change
+            displayLimit = PAGE_STEP; // reset pagination
+
+            // Update pill styling
+            document.querySelectorAll('.cat-pill').forEach(btn => {
+                const bCat = btn.getAttribute('data-cat');
+                if (bCat === cat) {
+                    btn.className = 'cat-pill active px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-neutral-950 text-white font-bold transition-all shadow-sm';
+                } else {
+                    btn.className = 'cat-pill px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full whitespace-nowrap bg-white hover:bg-neutral-50 text-neutral-700 border border-neutral-200/90 transition-all shadow-2xs';
+                }
+            });
+
+            initSeriesOptions();
+            applyFilters();
+        }
+
+        function handleSeriesSelect(series) {
+            currentSeries = series;
+            displayLimit = PAGE_STEP;
+            applyFilters();
+        }
+
+        let searchDebounceTimer = null;
+        function handleSearchInput(query) {
+            clearTimeout(searchDebounceTimer);
+            searchDebounceTimer = setTimeout(() => {
+                currentSearchQuery = (query || '').trim().toLowerCase();
+                const clearBtn = document.getElementById('search-clear-btn');
+                if (clearBtn) {
+                    if (currentSearchQuery.length > 0) clearBtn.classList.remove('hidden');
+                    else clearBtn.classList.add('hidden');
+                }
+                displayLimit = PAGE_STEP;
+                applyFilters();
+            }, 180);
+        }
+
+        function clearSearch() {
+            const inp = document.getElementById('catalog-search-input');
+            if (inp) inp.value = '';
+            currentSearchQuery = '';
+            const clearBtn = document.getElementById('search-clear-btn');
+            if (clearBtn) clearBtn.classList.add('hidden');
+            displayLimit = PAGE_STEP;
+            applyFilters();
+        }
+
+        function resetAllFilters() {
+            currentCategory = 'all';
+            currentSeries = 'all';
+            currentSearchQuery = '';
+            displayLimit = PAGE_STEP;
+            
+            const inp = document.getElementById('catalog-search-input');
+            if (inp) inp.value = '';
+            const sel = document.getElementById('series-select');
+            if (sel) sel.value = 'all';
+            
+            setCategoryFilter('all');
+        }
+
+        function applyFilters() {
+            filteredProducts = allProducts.filter(p => {
+                // Category match against Excel Category or legacy slug
+                if (currentCategory !== 'all') {
+                    const pExCat = (p.excelCategory || '').toUpperCase();
+                    const pCat = (p.category || '').toLowerCase();
+                    const target = currentCategory.toUpperCase();
+                    if (pExCat !== target && pCat !== currentCategory.toLowerCase()) {
+                        return false;
+                    }
+                }
+                
+                // Series / Subcategory match
+                if (currentSeries !== 'all') {
+                    const pSubcat = (p.subcategory || '').toLowerCase();
+                    const pSeries = (p.series || '').toLowerCase();
+                    const targetSeries = currentSeries.toLowerCase();
+                    if (pSubcat !== targetSeries && pSeries !== targetSeries) return false;
+                }
+                
+                // Search query match
+                if (currentSearchQuery.length > 0) {
+                    const matchName = p.name.toLowerCase().includes(currentSearchQuery);
+                    const matchSku = p.sku.toLowerCase().includes(currentSearchQuery);
+                    const matchBrand = p.brand.toLowerCase().includes(currentSearchQuery);
+                    const matchSeries = (p.series || '').toLowerCase().includes(currentSearchQuery);
+                    const matchSubcat = (p.subcategory || '').toLowerCase().includes(currentSearchQuery);
+                    const matchExCat = (p.excelCategory || '').toLowerCase().includes(currentSearchQuery);
+                    const matchSpecs = (p.specs || '').toLowerCase().includes(currentSearchQuery);
+                    if (!matchName && !matchSku && !matchBrand && !matchSeries && !matchSubcat && !matchExCat && !matchSpecs) {
+                        return false;
+                    }
+                }
+                return true;
+            });
+
+            // Update UI count
+            const countText = document.getElementById('catalog-count-text');
+            if (countText) {
+                countText.innerText = `Showing ${filteredProducts.length} verified products in current view`;
+            }
+
+            renderProducts();
+        }
+
+        // -------------------------------------------------------------
+        // RENDER PRODUCTS GRID (Hatim Enterprises Luxury Reskin)
+        // -------------------------------------------------------------
+        function renderProducts() {
+            const grid = document.getElementById('product-grid');
+            const noResults = document.getElementById('no-results-state');
+            const pagWrapper = document.getElementById('pagination-wrapper');
+            const showingSummary = document.getElementById('showing-summary');
+            const loadMoreBtn = document.getElementById('load-more-btn');
+
+            if (!grid) return;
+
+            if (filteredProducts.length === 0) {
+                grid.innerHTML = '';
+                if (noResults) noResults.classList.remove('hidden');
+                if (pagWrapper) pagWrapper.classList.add('hidden');
+                return;
+            }
+
+            if (noResults) noResults.classList.add('hidden');
+            if (pagWrapper) pagWrapper.classList.remove('hidden');
+
+            const visibleItems = filteredProducts.slice(0, displayLimit);
+            const isMr = currentLanguage === 'mr';
+            const qtyLabel = isMr ? 'नग:' : 'Qty:';
+            const addLabel = isMr ? '+ जोडा' : '+ Add';
+            const orderLabel = isMr ? 'ऑर्डर' : 'Order';
+            const addTitle = isMr ? 'मागणी यादीत जोडा' : 'Add to Cart';
+            const orderTitle = isMr ? 'WhatsApp वर ऑर्डर करा' : 'Order via WhatsApp';
+            const zoomTitle = isMr ? 'मोठे पाहण्यासाठी क्लिक करा' : 'Click to inspect in high-res zoom';
+            
+            let html = '';
+            visibleItems.forEach((p, idx) => {
+                const skuSafe = p.sku.replace(/'/g, "\\'");
+                const nameSafe = p.name.replace(/'/g, "\\'");
+                const brandSafe = p.brand.replace(/'/g, "\\'");
+                const loadAttr = idx < 6 ? 'eager' : 'lazy';
+                const wtyLabel = p.warranty ? (isMr ? p.warranty.replace(' Warranty', ' वॉरंटी') : p.warranty.replace(' Warranty', ' Wty')) : (isMr ? 'ओरिजिनल' : 'OEM Quality');
+                const packLabel = p.packUnit || '';
+
+                html += `
+                <div class="product-card bg-white rounded-3xl border border-neutral-200/90 p-3 sm:p-4.5 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div>
+                        <!-- Top Meta Header -->
+                        <div class="flex items-center justify-between gap-1 mb-2">
+                            <span class="text-[9px] sm:text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-neutral-100 text-neutral-700 border border-neutral-200/60 shrink-0">
+                                #${p.sku}
+                            </span>
+                            <span class="text-[8.5px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-900 border border-amber-500/20 uppercase tracking-tight shrink-0 flex items-center gap-1">
+                                <i class="ph-bold ph-shield-check text-amber-600"></i>
+                                <span>${wtyLabel}</span>
+                            </span>
+                        </div>
+
+                        <!-- Image Frame with Contain fit & Quick View trigger -->
+                        <div onclick="openQuickview('${skuSafe}')" class="relative w-full h-44 sm:h-52 bg-neutral-50/60 rounded-2xl flex items-center justify-center p-2 sm:p-2.5 border border-neutral-100/90 overflow-hidden mb-3 group-hover:border-amber-400/40 transition-colors cursor-pointer group/img" title="${zoomTitle}">
+                            <img src="${p.image}" alt="${p.name}" loading="${loadAttr}" decoding="async" class="product-img max-h-full max-w-full object-contain mx-auto group-hover/img:scale-105 transition-transform duration-300 drop-shadow-2xs" onerror="this.src='assets/products/02001.webp'">
+                            <span class="absolute bottom-2 left-2 text-[8px] sm:text-[9px] font-bold text-neutral-800 uppercase tracking-widest bg-white/95 backdrop-blur-md px-2.5 py-1 rounded-full shadow-2xs border border-white/80">
+                                ${p.brand}
+                            </span>
+                            <button onclick="event.stopPropagation(); openQuickview('${skuSafe}')" class="absolute top-2 right-2 opacity-0 group-hover/img:opacity-100 transition-opacity bg-neutral-950/80 hover:bg-neutral-950 text-white w-7 h-7 rounded-full flex items-center justify-center text-xs shadow-md" title="Quick View">
+                                <i class="ph-bold ph-arrows-out-simple"></i>
+                            </button>
+                        </div>
+
+                        <!-- Title and Series -->
+                        <div class="mb-1.5 sm:mb-2 cursor-pointer" onclick="openQuickview('${skuSafe}')">
+                            <span class="text-[10px] sm:text-[11px] font-bold text-amber-700 uppercase tracking-wider block mb-1 truncate">
+                                ${p.series}
+                            </span>
+                            <h3 class="text-xs sm:text-sm font-bold text-neutral-900 tracking-tight leading-snug line-clamp-2 min-h-[2rem] sm:min-h-[2.5rem] group-hover:text-amber-800 transition-colors">
+                                ${p.name}
+                            </h3>
+                        </div>
+
+                        <!-- Wholesale Availability & Packaging Matrix -->
+                        <div class="flex items-center justify-between mt-1 mb-2 pt-1.5 border-t border-neutral-100/80">
+                            <span class="text-[9px] font-bold uppercase tracking-wider text-amber-800 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200/60">
+                                ${isMr ? 'अधिकृत स्टॉक' : 'In Stock'}
+                            </span>
+                            <span class="text-[8.5px] sm:text-[9.5px] font-semibold text-neutral-600 bg-neutral-100/90 px-2 py-0.5 rounded-md border border-neutral-200/60 truncate max-w-[130px]" title="${packLabel}">
+                                ${packLabel}
+                            </span>
+                        </div>
+
+
+                        <!-- Description & Specs (Hidden on mobile cards for high-density scanning) -->
+                        <p class="hidden sm:block text-[11px] text-neutral-500 font-normal line-clamp-2 mb-3 leading-relaxed">
+                            ${p.specs || 'Solid build, precision machined for high durability and high fluid velocity.'}
+                        </p>
+                    </div>
+
+                    <!-- Card Actions & B2B Quantity Controls -->
+                    <div class="pt-2.5 sm:pt-3.5 border-t border-neutral-100 space-y-2 sm:space-y-3">
+                        
+                        <!-- Quantity Stepper with Generous Touch Targets (min 30px) -->
+                        <div class="flex items-center justify-between gap-1 sm:gap-2">
+                            <span class="text-[10px] uppercase font-bold text-neutral-500">${qtyLabel}</span>
+                            <div class="flex items-center border border-neutral-200/90 rounded-full overflow-hidden bg-neutral-50 shadow-2xs">
+                                <button onclick="adjustQty('${skuSafe}', -5)" class="w-7 h-7 sm:w-8 sm:h-8 min-w-[28px] min-h-[28px] bg-neutral-100 hover:bg-neutral-200 active:bg-neutral-300 active:scale-90 text-neutral-800 text-xs font-bold transition-all flex items-center justify-center rounded-full" aria-label="Decrease quantity">-</button>
+                                <input type="number" id="qty-${p.sku}" value="10" min="1" step="1" class="w-10 sm:w-12 text-center text-[12px] sm:text-xs font-bold text-neutral-900 py-1 bg-transparent focus:outline-none" aria-label="Order Quantity">
+                                <button onclick="adjustQty('${skuSafe}', 5)" class="w-7 h-7 sm:w-8 sm:h-8 min-w-[28px] min-h-[28px] bg-neutral-100 hover:bg-neutral-200 active:bg-neutral-300 active:scale-90 text-neutral-800 text-xs font-bold transition-all flex items-center justify-center rounded-full" aria-label="Increase quantity">+</button>
+                            </div>
+                        </div>
+
+                        <!-- Add to Cart & Direct Order Buttons (Tactile Feedback on Mobile) -->
+                        <div class="grid grid-cols-2 gap-1.5 sm:gap-2">
+                            <button onclick="addToCart('${skuSafe}')" class="py-2 sm:py-2.5 px-2 bg-amber-400 hover:bg-amber-300 active:scale-95 text-neutral-950 rounded-full text-[10px] sm:text-[11px] font-bold tracking-wider transition-all duration-200 flex items-center justify-center gap-1 shadow-2xs group/btn" title="${addTitle}">
+                                <i class="ph-bold ph-plus text-xs"></i>
+                                <span>${addLabel}</span>
+                            </button>
+
+                            <button onclick="openDirectProductOrder('${skuSafe}', '${nameSafe}', '${brandSafe}')" class="py-2 sm:py-2.5 px-2 bg-neutral-900 hover:bg-neutral-800 active:scale-95 text-white rounded-full text-[10px] sm:text-[11px] font-bold tracking-wider transition-all duration-200 flex items-center justify-center gap-1 shadow-2xs" title="${orderTitle}">
+                                <i class="ph-bold ph-whatsapp-logo text-xs text-emerald-400"></i>
+                                <span>${orderLabel}</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                `;
+            });
+
+            grid.innerHTML = html;
+
+            // Update Pagination state
+            if (showingSummary) {
+                if (isMr) {
+                    showingSummary.innerText = `एकूण ${filteredProducts.length} पैकी ${visibleItems.length} उत्पादने दर्शवित आहे`;
+                } else {
+                    showingSummary.innerText = `Showing ${visibleItems.length} of ${filteredProducts.length} items`;
+                }
+            }
+            if (loadMoreBtn) {
+                if (visibleItems.length >= filteredProducts.length) {
+                    loadMoreBtn.classList.add('hidden');
+                } else {
+                    loadMoreBtn.classList.remove('hidden');
+                }
+            }
+        }
+
+        // -------------------------------------------------------------
+        // HIGH-RESOLUTION QUICK-VIEW & LIGHTBOX CONTROLLER
+        // -------------------------------------------------------------
+        let currentQvSku = null;
+        let isQvZoomed = false;
+
+        function openQuickview(sku) {
+            const prod = allProducts.find(p => p.sku === sku);
+            if (!prod) return;
+            currentQvSku = sku;
+            isQvZoomed = false;
+
+            const modal = document.getElementById('quickview-modal');
+            const content = document.getElementById('quickview-content');
+            const img = document.getElementById('qv-image');
+            
+            document.getElementById('qv-sku').innerText = '#' + prod.sku;
+            document.getElementById('qv-brand-badge').innerText = prod.brand;
+            document.getElementById('qv-series').innerText = prod.series;
+            document.getElementById('qv-title').innerText = prod.name;
+            document.getElementById('qv-finish').innerText = prod.finish || 'Standard Brass / Chrome';
+            document.getElementById('qv-pack').innerText = prod.packUnit || 'Standard Packaging';
+            document.getElementById('qv-specs').innerText = prod.specs || 'Solid build, precision machined for high durability and high fluid velocity.';
+            
+            const warrantyText = document.getElementById('qv-warranty-text');
+
+            if (warrantyText) {
+                const isMr = currentLanguage === 'mr';
+                warrantyText.innerText = prod.warranty ? (isMr ? prod.warranty.replace(' Warranty', ' वॉरंटी') : prod.warranty.replace(' Warranty', ' Wty')) : (isMr ? 'ओरिजिनल' : 'OEM Quality');
+            }
+
+            img.src = prod.image;
+            img.alt = prod.name;
+            img.style.transform = 'scale(1)';
+
+            document.getElementById('qv-qty-input').value = '10';
+
+            modal.classList.remove('hidden');
+            requestAnimationFrame(() => {
+                modal.classList.remove('opacity-0');
+                content.classList.remove('scale-95', 'opacity-0');
+                content.classList.add('scale-100', 'opacity-100');
+            });
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeQuickviewModal() {
+            const modal = document.getElementById('quickview-modal');
+            const content = document.getElementById('quickview-content');
+            if (!modal) return;
+            
+            content.classList.remove('scale-100', 'opacity-100');
+            content.classList.add('scale-95', 'opacity-0');
+            modal.classList.add('opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                document.body.style.overflow = '';
+            }, 200);
+        }
+
+        function handleQuickviewBackdropClick(e) {
+            if (e.target.id === 'quickview-modal') {
+                closeQuickviewModal();
+            }
+        }
+
+        function toggleImageZoom(container) {
+            const img = document.getElementById('qv-image');
+            if (!img) return;
+            isQvZoomed = !isQvZoomed;
+            if (isQvZoomed) {
+                img.style.transform = 'scale(1.75)';
+                container.classList.remove('cursor-zoom-in');
+                container.classList.add('cursor-zoom-out');
+            } else {
+                img.style.transform = 'scale(1)';
+                container.classList.remove('cursor-zoom-out');
+                container.classList.add('cursor-zoom-in');
+            }
+        }
+
+        function adjustQvQty(delta) {
+            const inp = document.getElementById('qv-qty-input');
+            if (!inp) return;
+            let v = parseInt(inp.value, 10) || 10;
+            v = Math.max(1, v + delta);
+            inp.value = v;
+        }
+
+        function addQvToCart() {
+            if (!currentQvSku) return;
+            const inp = document.getElementById('qv-qty-input');
+            const qty = parseInt(inp.value, 10) || 10;
+            
+            const prod = allProducts.find(p => p.sku === currentQvSku);
+            if (!prod) return;
+
+            const existing = rfqCart.find(i => i.sku === currentQvSku);
+            if (existing) {
+                existing.qty += qty;
+            } else {
+                rfqCart.push({
+                    sku: prod.sku,
+                    name: prod.name,
+                    brand: prod.brand,
+                    series: prod.series,
+                    image: prod.image,
+                    qty: qty
+                });
+            }
+
+            try {
+                localStorage.setItem('msc_rfq_cart', JSON.stringify(rfqCart));
+            } catch(e) {}
+
+            updateCartBadge();
+            renderCartItems();
+            showToast(`${currentLanguage === 'mr' ? 'मागणी यादीत जोडले' : 'Added to Cart'}: ${prod.name} (${qty} pcs)`);
+            closeQuickviewModal();
+        }
+
+        function orderQvViaWhatsApp() {
+            if (!currentQvSku) return;
+            const prod = allProducts.find(p => p.sku === currentQvSku);
+            if (!prod) return;
+            const inp = document.getElementById('qv-qty-input');
+            const qty = parseInt(inp.value, 10) || 10;
+
+            const msg = `Hello Master Sales Corporation,\nI would like to inquire about wholesale specifications and availability for:\n\n*Product:* ${prod.name}\n*SKU / Item Code:* #${prod.sku}\n*Brand / Series:* ${prod.brand} - ${prod.series}\n*Estimated Quantity:* ${qty} units\n\nPlease share availability, packaging details, and dispatch timeframe.`;
+            window.open(`https://wa.me/918600021528?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+
+        // Close quickview on ESC key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeQuickviewModal();
+            }
+        });
+
+        function loadMoreProducts() {
+            displayLimit += PAGE_STEP;
+            renderProducts();
+        }
+
+        function adjustQty(sku, delta) {
+            const inp = document.getElementById(`qty-${sku}`);
+            if (inp) {
+                let val = parseInt(inp.value, 10) || 10;
+                val = Math.max(1, val + delta);
+                inp.value = val;
+            }
+        }
+
+        // -------------------------------------------------------------
+        // RFQ CART CONTROLLER
+        // -------------------------------------------------------------
+        function addToCart(sku) {
+            const product = allProducts.find(p => p.sku === sku);
+            if (!product) return;
+
+            const qtyInput = document.getElementById(`qty-${sku}`);
+            const qty = qtyInput ? (parseInt(qtyInput.value, 10) || 10) : 10;
+
+            const existingIdx = rfqCart.findIndex(item => item.sku === sku);
+            if (existingIdx > -1) {
+                rfqCart[existingIdx].qty += qty;
+            } else {
+                rfqCart.push({
+                    sku: product.sku,
+                    name: product.name,
+                    brand: product.brand,
+                    series: product.series,
+                    category: product.category,
+                    image: product.image,
+                    qty: qty
+                });
+            }
+
+            saveCart();
+            updateCartBadge();
+            renderCartItems();
+            showToast(`Added ${qty}x ${product.name} to Cart`);
+        }
+
+        function saveCart() {
+            try {
+                localStorage.setItem('msc_rfq_cart', JSON.stringify(rfqCart));
+            } catch (e) {
+                console.warn('LocalStorage error:', e);
+            }
+        }
+
+        function updateCartBadge() {
+            const badge = document.getElementById('cart-badge');
+            const dockBadge = document.getElementById('dock-rfq-badge');
+            const totalTypes = rfqCart.length;
+            if (badge) {
+                badge.innerText = totalTypes;
+                badge.classList.remove('animate-cart-pulse');
+                void badge.offsetWidth; // trigger reflow
+                badge.classList.add('animate-cart-pulse');
+            }
+            if (dockBadge) {
+                dockBadge.innerText = totalTypes;
+                dockBadge.classList.remove('animate-cart-pulse');
+                void dockBadge.offsetWidth;
+                dockBadge.classList.add('animate-cart-pulse');
+            }
+        }
+
+        /**
+         * Toggles the Persistent B2B Cart slide-over drawer with smooth transition.
+         * @param {boolean} open - True to open the drawer, false to close.
+         */
+        function toggleCartDrawer(open) {
+            const drawer = document.getElementById('cart-drawer');
+            const backdrop = document.getElementById('cart-drawer-backdrop');
+            if (!drawer || !backdrop) return;
+
+            if (open) {
+                backdrop.classList.remove('hidden');
+                setTimeout(() => {
+                    backdrop.classList.remove('opacity-0');
+                    drawer.classList.remove('translate-x-full');
+                }, 10);
+            } else {
+                drawer.classList.add('translate-x-full');
+                backdrop.classList.add('opacity-0');
+                setTimeout(() => {
+                    backdrop.classList.add('hidden');
+                }, 300);
+            }
+        }
+
+        function renderCartItems() {
+            const container = document.getElementById('cart-items-container');
+            const summaryTypes = document.getElementById('cart-summary-types');
+            const summaryPieces = document.getElementById('cart-summary-pieces');
+
+            if (!container) return;
+
+            const isMr = currentLanguage === 'mr';
+            if (rfqCart.length === 0) {
+                container.innerHTML = `
+                    <div class="py-16 text-center text-neutral-400">
+                        <div class="w-16 h-16 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-3 text-neutral-400">
+                            <i class="ph-bold ph-shopping-cart-simple text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-neutral-900 text-sm font-serif">${isMr ? 'तुमची मागणी यादी रिकामी आहे' : 'Your Cart is empty'}</h4>
+                        <p class="text-xs text-neutral-500 mt-1 max-w-xs mx-auto">
+                            ${isMr ? 'कॅटलॉग ब्राउझ करा, आवश्यक नग संख्या निवडा आणि त्वरित B2B मागणी तयार करा.' : 'Browse the catalog, specify required piece quantities, and add products to generate an instant B2B manifest.'}
+                        </p>
+                        <button onclick="toggleCartDrawer(false)" class="mt-4 px-5 py-2.5 bg-neutral-950 text-white rounded-full text-xs font-bold uppercase tracking-wider hover:bg-neutral-800 transition-colors shadow-sm">
+                            ${isMr ? 'उत्पादने पहा' : 'Browse Products'}
+                        </button>
+                    </div>
+                `;
+                if (summaryTypes) summaryTypes.innerText = isMr ? '० उत्पादने' : '0 items';
+                if (summaryPieces) summaryPieces.innerText = isMr ? '० नग' : '0 Pcs';
+                return;
+            }
+
+            let totalPcs = 0;
+            let html = '';
+
+            rfqCart.forEach((item, idx) => {
+                totalPcs += item.qty;
+                const skuSafe = item.sku.replace(/'/g, "\'");
+
+                html += `
+                <div class="p-3.5 bg-white border border-neutral-200/80 rounded-2xl flex items-center justify-between gap-3 shadow-2xs">
+                    <div class="flex items-center gap-3">
+                        <div class="w-14 h-14 bg-neutral-50 border border-neutral-100 rounded-xl p-1 flex items-center justify-center shrink-0">
+                            <img src="${item.image}" alt="${item.name}" class="max-w-full max-h-full object-contain" onerror="this.src='assets/products/02001.webp'">
+                        </div>
+                        <div class="min-w-0">
+                            <span class="text-[9px] font-mono font-bold text-amber-700">#${item.sku}</span>
+                            <h4 class="text-xs font-bold text-neutral-900 truncate max-w-[170px] sm:max-w-[200px]">
+                                ${item.name}
+                            </h4>
+                            ${item.series ? `<span class="text-[10px] text-neutral-500 block truncate">${item.series}</span>` : ''}
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-2.5">
+                        <!-- Qty Adjuster -->
+                        <div class="flex items-center border border-neutral-200 rounded-full overflow-hidden bg-neutral-50">
+                            <button onclick="updateCartItemQty(${idx}, -5)" class="px-2 py-0.5 bg-neutral-100 hover:bg-neutral-200 text-xs font-bold text-neutral-700">-</button>
+                            <span class="w-9 text-center text-xs font-bold text-neutral-900">${item.qty}</span>
+                            <button onclick="updateCartItemQty(${idx}, 5)" class="px-2 py-0.5 bg-neutral-100 hover:bg-neutral-200 text-xs font-bold text-neutral-700">+</button>
+                        </div>
+
+                        <!-- Delete Button -->
+                        <button onclick="removeCartItem(${idx})" class="text-neutral-400 hover:text-rose-600 p-1.5 rounded-full hover:bg-rose-50 transition-colors" title="Remove item">
+                            <i class="ph-bold ph-trash text-sm"></i>
+                        </button>
+                    </div>
+                </div>
+                `;
+            });
+
+            container.innerHTML = html;
+            if (summaryTypes) summaryTypes.innerText = isMr ? `${rfqCart.length} उत्पादने` : `${rfqCart.length} products`;
+            if (summaryPieces) summaryPieces.innerText = isMr ? `${totalPcs.toLocaleString('en-IN')} नग` : `${totalPcs.toLocaleString('en-IN')} Pcs`;
+        }
+
+        function updateCartItemQty(idx, delta) {
+            if (rfqCart[idx]) {
+                rfqCart[idx].qty += delta;
+                if (rfqCart[idx].qty <= 0) {
+                    rfqCart.splice(idx, 1);
+                }
+                saveCart();
+                updateCartBadge();
+                renderCartItems();
+            }
+        }
+
+        function removeCartItem(idx) {
+            rfqCart.splice(idx, 1);
+            saveCart();
+            updateCartBadge();
+            renderCartItems();
+        }
+
+        function clearEntireCart() {
+            if (confirm('Clear all products from your current Cart?')) {
+                rfqCart = [];
+                saveCart();
+                updateCartBadge();
+                renderCartItems();
+            }
+        }
+
+        // -------------------------------------------------------------
+        // SUBMIT TO WHATSAPP (Dual Action Channel 1)
+        // -------------------------------------------------------------
+        function submitCartToWhatsApp() {
+            if (rfqCart.length === 0) {
+                alert('Your Cart is empty. Please add products before requesting a quote.');
+                return;
+            }
+
+            const firm = (document.getElementById('buyer-firm').value || '').trim() || 'Retail Merchant / Dealer';
+            const city = (document.getElementById('buyer-city').value || '').trim() || 'Maharashtra';
+            const phone = (document.getElementById('buyer-phone').value || '').trim();
+
+            let message = `*MASTER SALES CORPORATION - B2B WHOLESALE CART*\n`;
+            message += `*Firm Name:* ${firm}\n`;
+            message += `*City/District:* ${city}\n`;
+            if (phone) message += `*Phone:* ${phone}\n`;
+            message += `--------------------------------------------------\n`;
+            message += `*ORDER REQUIREMENT:*\n`;
+
+            let totalPcs = 0;
+            rfqCart.forEach((item, idx) => {
+                totalPcs += item.qty;
+                const seriesPart = item.series ? ` (${item.series})` : '';
+                message += `${idx + 1}. [SKU: ${item.sku}] ${item.name}${seriesPart} - *${item.qty} pcs*\n`;
+            });
+
+            message += `--------------------------------------------------\n`;
+            message += `*Total:* ${rfqCart.length} product lines (${totalPcs} pieces total)\n\n`;
+            message += `Please share wholesale availability, specifications, and dispatch schedule.`;
+
+            const url = `https://wa.me/918600021528?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+
+        // -------------------------------------------------------------
+        // DIRECT PRODUCT ORDER MODAL (Dual Action Channel 2)
+        // -------------------------------------------------------------
+        const quoteModal = document.getElementById('quote-modal');
+        const modalContent = document.getElementById('quote-modal-content');
+        let currentModalTab = 'whatsapp';
+
+        function openDirectProductOrder(sku, name, brand) {
+            quoteModal.classList.remove('hidden');
+            switchModalTab('whatsapp');
+            setTimeout(() => {
+                modalContent.classList.remove('scale-95', 'opacity-0');
+                modalContent.classList.add('scale-100', 'opacity-100');
+            }, 10);
+
+            const notes = document.getElementById('quote-notes');
+            if (notes) {
+                const qtyInput = document.getElementById(`qty-${sku}`);
+                const qty = qtyInput ? qtyInput.value : '10';
+                notes.value = `Product: ${name} (SKU: ${sku})\nBrand: ${brand}\nRequired Quantity: ${qty} pieces\nProduct Catalog Inquiry.`;
+            }
+        }
+
+        function openSmartAppStore() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(userAgent)) {
+                window.open('https://play.google.com/store/apps/details?id=com.mastersalescorp', '_blank');
+            } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.open('https://apps.apple.com/in/app/master-sales-corporation/id6738718610', '_blank');
+            } else {
+                quoteModal.classList.remove('hidden');
+                switchModalTab('app');
+                setTimeout(() => {
+                    modalContent.classList.remove('scale-95', 'opacity-0');
+                    modalContent.classList.add('scale-100', 'opacity-100');
+                }, 10);
+            }
+        }
+
+        function switchModalTab(tab) {
+            currentModalTab = tab;
+            const tabWhatsapp = document.getElementById('modal-tab-whatsapp');
+            const tabApp = document.getElementById('modal-tab-app');
+            const contentWhatsapp = document.getElementById('modal-content-whatsapp');
+            const contentApp = document.getElementById('modal-content-app');
+
+            if (tab === 'whatsapp') {
+                if (tabWhatsapp) {
+                    tabWhatsapp.className = 'flex-1 py-3 px-3 text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50/80 border-b-2 border-emerald-600 transition-colors flex items-center justify-center gap-1.5';
+                }
+                if (tabApp) {
+                    tabApp.className = 'flex-1 py-3 px-3 text-xs font-bold uppercase tracking-wider text-neutral-500 hover:text-neutral-900 bg-neutral-50 border-b-2 border-transparent transition-colors flex items-center justify-center gap-1.5';
+                }
+                if (contentWhatsapp) contentWhatsapp.classList.remove('hidden');
+                if (contentApp) contentApp.classList.add('hidden');
+            } else {
+                if (tabWhatsapp) {
+                    tabWhatsapp.className = 'flex-1 py-3 px-3 text-xs font-bold uppercase tracking-wider text-neutral-500 hover:text-neutral-900 bg-neutral-50 border-b-2 border-transparent transition-colors flex items-center justify-center gap-1.5';
+                }
+                if (tabApp) {
+                    tabApp.className = 'flex-1 py-3 px-3 text-xs font-bold uppercase tracking-wider text-neutral-950 bg-white border-b-2 border-neutral-950 transition-colors flex items-center justify-center gap-1.5';
+                }
+                if (contentWhatsapp) contentWhatsapp.classList.add('hidden');
+                if (contentApp) contentApp.classList.remove('hidden');
+            }
+        }
+
+        function closeQuoteModal() {
+            modalContent.classList.remove('scale-100', 'opacity-100');
+            modalContent.classList.add('scale-95', 'opacity-0');
+            setTimeout(() => {
+                quoteModal.classList.add('hidden');
+            }, 180);
+        }
+
+        if (quoteModal) {
+            quoteModal.addEventListener('click', (e) => {
+                if (e.target === quoteModal) closeQuoteModal();
+            });
+        }
+
+        function handleQuoteSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('contact-name').value.trim();
+            const phone = document.getElementById('contact-phone').value.trim();
+            const city = document.getElementById('contact-city').value.trim();
+            const notes = document.getElementById('quote-notes').value.trim();
+
+            let message = `*MASTER SALES CORPORATION - PRODUCT INQUIRY*\n`;
+            message += `*From:* ${name}\n`;
+            message += `*Phone:* ${phone}\n`;
+            message += `*City:* ${city}\n`;
+            message += `--------------------------------------------------\n`;
+            if (notes) message += `${notes}\n`;
+            message += `--------------------------------------------------\n`;
+            message += `Please provide stock availability and dispatch schedule.`;
+
+
+            const url = `https://wa.me/918600021528?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+            closeQuoteModal();
+        }
+
+        // -------------------------------------------------------------
+        // TOAST NOTIFICATION UTILITY
+        // -------------------------------------------------------------
+        function showToast(text) {
+            const container = document.getElementById('toast-container');
+            if (!container) return;
+
+            const toast = document.createElement('div');
+            toast.className = 'pointer-events-auto bg-neutral-950 text-white px-5 py-3.5 rounded-full shadow-2xl border border-neutral-800 flex items-center gap-3 transform translate-y-4 opacity-0 transition-all duration-300 text-xs font-medium';
+            toast.innerHTML = `
+                <i class="ph-bold ph-check-circle text-emerald-400 text-base"></i>
+                <span>${text}</span>
+                <button onclick="toggleCartDrawer(true)" class="ml-2 underline text-amber-400 font-bold">${currentLanguage === 'mr' ? 'यादी पहा' : 'View Cart'}</button>
+            `;
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.classList.remove('translate-y-4', 'opacity-0');
+            }, 10);
+
+            setTimeout(() => {
+                toast.classList.add('translate-y-4', 'opacity-0');
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        // -------------------------------------------------------------
+        // MOBILE MENU TOGGLE
+        // -------------------------------------------------------------
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            const icon = document.getElementById('menu-icon');
+            if (!menu || !icon) return;
+
+            const isOpen = !menu.classList.contains('hidden');
+            if (isOpen) {
+                menu.classList.add('hidden');
+                icon.classList.remove('ph-x');
+                icon.classList.add('ph-list');
+            } else {
+                menu.classList.remove('hidden');
+                icon.classList.remove('ph-list');
+                icon.classList.add('ph-x');
+            }
+        }
+    </script>
+</body>
+</html>

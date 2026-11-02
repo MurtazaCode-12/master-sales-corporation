@@ -1,0 +1,12 @@
+*.py
+*.xlsx
+*.xls
+*.csv
+.git
+scratch/
+pdf_page_*.png
+extracted_page0_*.png
+test_*.png
+logo_original.png
+msc_old_logo.png
+MSC_Catalog_Aug_24.pdf

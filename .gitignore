@@ -1,0 +1,7 @@
+.vercel
+scratch/
+*.pyc
+__pycache__/
+Master_Sales_Corporation_Catalog.pdf
+Master_Sales_Corporation_Catalog_Optimized.pdf
+MSC_Catalog_Aug_24.pdf
